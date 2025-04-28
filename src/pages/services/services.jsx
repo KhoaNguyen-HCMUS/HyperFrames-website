@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ServiceCard from '../../components/Common/serviceCard/serviceCard.jsx';
+import ServiceCard from '../../components/common/serviceCard/serviceCard.jsx';
 import { services } from '../../data/services.js';
 
 const tabs = [
