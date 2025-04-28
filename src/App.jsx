@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ROUTES } from './constants/routes';
-import Layout from './components/layout';
+import Layout from './components/layout/layout.jsx';
 import Home from './pages/home/home';
 import Services from './pages/services/services';
 import LivestreamKeyPhongXanh from './pages/services/components/livestream/livestreamKeyPhongXanh';
