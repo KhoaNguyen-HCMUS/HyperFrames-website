@@ -1,12 +1,12 @@
 import Nav from './nav/nav.jsx';
-// import Footer from './Footer/Footer';
+import Footer from './footer/footer';
 
 export default function Layout({ children }) {
   return (
     <div className='flex flex-col min-h-screen'>
       <Nav />
       <main className='flex-grow'>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function LivestreamKeyPhongXanh() {
       {/* Banner */}
       <div className='relative w-full h-64 md:h-96 mb-12'>
         <img
-          src='https://trongkiem.com.vn/wp-content/uploads/2023/09/348041635_1581931105606739_6965851288321235057_n.jpg'
+          src='https://dummyimage.com/1200x900/000/fff'
           alt='Livestream Key Phông Xanh'
           className='w-full h-full object-cover rounded-lg shadow-lg'
         />
