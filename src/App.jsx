@@ -3,7 +3,7 @@ import { ROUTES } from './constants/routes';
 import Layout from './components/layout/Layout';
 import Home from './pages/home/home';
 import Services from './pages/services/services';
-// import ServiceDetail from './pages/Services/ServiceDetail';
+import LivestreamKeyPhongXanh from './pages/services/components/livestream/livestreamKeyPhongXanh';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path={ROUTES.HOME} element={<Home />} />
           <Route path={ROUTES.SERVICES} element={<Services />} />
-          {/* <Route path={ROUTES.SERVICE_DETAIL} element={<ServiceDetail />} /> */}
+          <Route path={ROUTES.LIVESTREAM_PHONG_XANH} element={<LivestreamKeyPhongXanh />} />
         </Routes>
       </Layout>
     </BrowserRouter>
