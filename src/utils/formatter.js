@@ -10,7 +10,6 @@ export const formatFileSize = (size) => {
   return `${(size / Math.pow(1024, i)).toFixed(1)} ${['B', 'KB', 'MB', 'GB', 'TB'][i]}`;
 };
 
-// You can add more formatting functions here
 export const formatPrice = (price) => {
   return new Intl.NumberFormat('vi-VN', {
     style: 'currency',
