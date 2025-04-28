@@ -63,7 +63,7 @@ export default function Services() {
                 key={service.id}
                 img={service.image}
                 title={service.title}
-				description={service.description}
+                description={service.description}
                 slug={service.id}
                 className='transform hover:scale-105 transition-transform duration-300'
               />

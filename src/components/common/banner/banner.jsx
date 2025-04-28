@@ -6,17 +6,17 @@ export default function Banner() {
   const banners = [
     {
       id: 1,
-      url: 'https://dummyimage.com/1200x600/00aaff/ffffff&text=Welcome+to+HyperFrames',
+      url: 'https://dummyimage.com/1200x600/000000/ffffff&text=Welcome+to+HyperFrames',
       alt: 'Welcome Banner',
     },
     {
       id: 2,
-      url: 'https://dummyimage.com/1200x600/ff00aa/ffffff&text=Professional+Photography',
+      url: 'https://dummyimage.com/1200x600/000000/ffffff&text=Professional+Photography',
       alt: 'Services Banner',
     },
     {
       id: 3,
-      url: 'https://dummyimage.com/1200x600/aa00ff/ffffff&text=High+Quality+Prints',
+      url: 'https://dummyimage.com/1200x600/000000/ffffff&text=High+Quality+Prints',
       alt: 'Products Banner',
     },
   ];
