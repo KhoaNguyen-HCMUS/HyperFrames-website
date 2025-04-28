@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ServiceCard from '../../components/serviceCard/serviceCard.jsx';
+import ServiceCard from '../../components/Common/serviceCard/serviceCard.jsx';
+import { services } from '../../data/services.js';
 
 const tabs = [
   { id: 'livestream', label: 'DỊCH VỤ LIVESTREAM' },
@@ -14,7 +15,6 @@ export default function Services() {
 
   return (
     <div className='min-h-screen bg-gradient-to-b from-gray-900 to-black text-white'>
-      {/* Hero Banner */}
       <div className='relative h-[40vh] flex items-center justify-center overflow-hidden'>
         <img
           src='https://dummyimage.com/1920x400/000/fff'
@@ -57,26 +57,18 @@ export default function Services() {
         </div>
 
         {activeTab === 'livestream' && (
-          <>
-            <ServiceCard
-              img='https://dummyimage.com/1200x900/000/fff'
-              title='Livestream key phông xanh, phim trường ảo chất lượng'
-              slug='livestream-phong-xanh'
-              className='transform hover:scale-105 transition-transform duration-300'
-            />
-            <ServiceCard
-              img='https://dummyimage.com/1200x900/000/fff'
-              title='Livestream talkshow, webinar, đào tạo trực tuyến'
-              slug='livestream-talkshow'
-              className='transform hover:scale-105 transition-transform duration-300'
-            />
-            <ServiceCard
-              img='https://dummyimage.com/1200x900/000/fff'
-              title='Livestream cầu truyền hình, họp trực tuyến hàng đầu'
-              slug='livestream-truyen-hinh'
-              className='transform hover:scale-105 transition-transform duration-300'
-            />
-          </>
+          <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+            {services.livestream.items.map((service) => (
+              <ServiceCard
+                key={service.id}
+                img={service.image}
+                title={service.title}
+				description={service.description}
+                slug={service.id}
+                className='transform hover:scale-105 transition-transform duration-300'
+              />
+            ))}
+          </div>
         )}
       </div>
     </div>

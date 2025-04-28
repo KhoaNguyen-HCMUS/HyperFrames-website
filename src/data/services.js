@@ -1,0 +1,33 @@
+export const services = {
+  livestream: {
+    id: 'livestream',
+    title: 'DỊCH VỤ LIVESTREAM',
+    items: [
+      {
+        id: 'livestream-phong-xanh',
+        title: 'Livestream key phông xanh, phim trường ảo chất lượng',
+        image: 'https://dummyimage.com/1200x900/000/fff',
+        description: 'Dịch vụ livestream chuyên nghiệp với phông xanh và phim trường ảo',
+        features: ['Chất lượng phát sóng Full HD', 'Phim trường ảo đa dạng', 'Đội ngũ kỹ thuật chuyên nghiệp'],
+        price: 'Liên hệ báo giá',
+      },
+      {
+        id: 'livestream-talkshow',
+        title: 'Livestream talkshow, webinar, đào tạo trực tuyến',
+        image: 'https://dummyimage.com/1200x900/000/fff',
+        description: 'Giải pháp trực tuyến cho các sự kiện talkshow và đào tạo',
+        features: ['Hệ thống âm thanh chuyên nghiệp', 'Nhiều góc máy đa dạng', 'Tương tác trực tuyến với người xem'],
+        price: 'Liên hệ báo giá',
+      },
+      {
+        id: 'livestream-truyen-hinh',
+        title: 'Livestream cầu truyền hình, họp trực tuyến hàng đầu',
+        image: 'https://dummyimage.com/1200x900/000/fff',
+        description: 'Dịch vụ cầu truyền hình chất lượng cao',
+        features: ['Kết nối đa điểm ổn định', 'Chất lượng hình ảnh 4K', 'Hỗ trợ kỹ thuật 24/7'],
+        price: 'Liên hệ báo giá',
+      },
+    ],
+  },
+  // Add more service categories here as needed
+};
