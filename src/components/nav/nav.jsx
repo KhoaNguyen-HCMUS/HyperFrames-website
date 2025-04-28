@@ -12,10 +12,10 @@ export default function ResponsiveNavbar() {
 
   const menuItems = [
     { name: 'Trang chủ', href: '/' },
-    { name: 'Dịch vụ', href: '/services' },
-    { name: 'Sản phẩm', href: '/products' },
-    { name: 'Liên hệ', href: '/contact' },
-    { name: 'Giới thiệu', href: '/about' },
+    { name: 'Dịch vụ', href: '/dich-vu' },
+    { name: 'Sản phẩm', href: '/san-pham' },
+    { name: 'Liên hệ', href: '/lien-he' },
+    { name: 'Giới thiệu', href: '/gioi-thieu' },
   ];
 
   return (
