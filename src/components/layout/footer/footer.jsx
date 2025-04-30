@@ -8,7 +8,6 @@ export default function Footer() {
         <div>
           <h3 className='text-xl font-bold text-red-500 mb-4'>Thông tin liên hệ</h3>
           <p className='mb-2'>HyperFrames Production</p>
-          <p className='mb-2'>Địa chỉ: 8 đường 43 Hiệp Bình Chánh, Tp. Thủ Đức, TP.HCM, Việt Nam</p>
           <p className='mb-2'>
             Điện thoại:{' '}
             <a href='tel:0338724974' className='text-red-400 hover:underline'>
