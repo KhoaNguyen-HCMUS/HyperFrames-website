@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import Logo from '/logo.jpg'; // Đường dẫn đến logo
+import Logo from '/logo.svg';
 import { Link } from 'react-router-dom';
 
 export default function ResponsiveNavbar() {
@@ -24,7 +24,18 @@ export default function ResponsiveNavbar() {
         <div className='max-w-6xl mx-auto px-4'>
           <div className='flex justify-between items-center h-16'>
             <div className='flex items-center'>
-              <img src={Logo} alt='HYPERFRAMES Logo' className='h-10 mr-2' />
+              <a
+                href='https://www.facebook.com/hyperframesprod'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='flex items-center'
+              >
+                <img
+                  src={Logo}
+                  alt='HYPERFRAMES Logo'
+                  className='cursor-pointer h-10 mr-2 logo-glow transition-all duration-300 hover:scale-105'
+                />
+              </a>
             </div>
 
             <div className='hidden md:flex md:items-center md:space-x-6'>

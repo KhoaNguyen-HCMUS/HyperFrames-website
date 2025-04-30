@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -29,5 +32,21 @@
                  0 0 10px #ff0000,
                  0 0 15px #ff0000,
                  0 0 40px #ff0000;
+  }
+}
+
+@layer components {
+  .logo-glow {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+    }
+    to {
+      filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+    }
   }
 }
