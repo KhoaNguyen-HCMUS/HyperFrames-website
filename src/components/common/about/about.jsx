@@ -1,4 +1,53 @@
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { useState, useEffect } from 'react';
+
+const AnimatedListItem = ({ item, index }) => {
+  const [setCount] = useState(0);
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      const timer = setTimeout(() => {
+        setCount(100);
+      }, index * 200);
+      return () => clearTimeout(timer);
+    }
+  }, [inView, index]);
+
+  return (
+    <motion.li
+      ref={ref}
+      initial={{ opacity: 0, y: 20 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className='flex items-center space-x-2 hover:text-red-500 transition-colors duration-300'
+    >
+      <svg className='w-5 h-5 text-red-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M5 13l4 4L19 7' />
+      </svg>
+      <motion.span
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.3, delay: index * 0.1 + 0.3 }}
+      >
+        {item}
+      </motion.span>
+    </motion.li>
+  );
+};
+
 export default function About() {
+  const features = [
+    'Phim trường ảo chất lượng cao',
+    'Thiết bị livestream chuyên nghiệp',
+    'Đội ngũ kỹ thuật viên giàu kinh nghiệm',
+    'Hỗ trợ 24/7',
+  ];
+
   return (
     <section className='bg-black text-white py-20'>
       <div className='max-w-6xl mx-auto px-4'>
@@ -28,21 +77,8 @@ export default function About() {
               khách hàng.
             </p>
             <ul className='space-y-4'>
-              {[
-                'Phim trường ảo chất lượng cao',
-                'Thiết bị livestream chuyên nghiệp',
-                'Đội ngũ kỹ thuật viên giàu kinh nghiệm',
-                'Hỗ trợ 24/7',
-              ].map((item, index) => (
-                <li
-                  key={index}
-                  className='flex items-center space-x-2 hover:text-red-500 transition-colors duration-300'
-                >
-                  <svg className='w-5 h-5 text-red-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M5 13l4 4L19 7' />
-                  </svg>
-                  <span>{item}</span>
-                </li>
+              {features.map((item, index) => (
+                <AnimatedListItem key={index} item={item} index={index} />
               ))}
             </ul>
           </div>
