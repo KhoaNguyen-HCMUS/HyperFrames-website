@@ -29,7 +29,7 @@ export default function Banner() {
         delay: 3000,
         disableOnInteraction: false,
       }}
-      className='w-7xl justify-items-center h-[600px] object-cover'
+      className='w-full justify-items-center h-[600px] object-cover'
     >
       {banners.map((banner) => (
         <SwiperSlide key={banner.id}>
