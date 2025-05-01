@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ServiceCard from '../../components/common/serviceCard/serviceCard.jsx';
-import { services } from '../../data/data.js';
+import { pricing } from '../../data/data.js';
+import PricingCard from '../../components/common/pricingCard/pricingCard.jsx';
 
 const tabs = [
   { id: 'livestream', label: 'DỊCH VỤ LIVESTREAM' },
-  { id: 'quayphim', label: 'DỊCH VỤ QUAY PHIM' },
-  { id: 'chuphinh', label: 'DỊCH VỤ CHỤP HÌNH' },
-  { id: 'chothue', label: 'CHO THUÊ THIẾT BỊ' },
+  { id: 'film', label: 'DỊCH VỤ QUAY PHIM' },
+  { id: 'photo', label: 'DỊCH VỤ CHỤP HÌNH' },
 ];
 
 export default function Services() {
@@ -56,20 +54,17 @@ export default function Services() {
           ))}
         </div>
 
-        {activeTab === 'livestream' && (
-          <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-            {services.livestream.items.map((service) => (
-              <ServiceCard
-                key={service.id}
-                img={service.image}
-                title={service.title}
-                description={service.description}
-                slug={service.id}
-                className='transform hover:scale-105 transition-transform duration-300'
-              />
-            ))}
-          </div>
-        )}
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {pricing[activeTab].packages.map((pkg) => (
+            <PricingCard
+              key={pkg.id}
+              name={pkg.name}
+              price={pkg.price}
+              duration={pkg.duration}
+              features={pkg.features}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
