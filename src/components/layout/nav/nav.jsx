@@ -11,11 +11,9 @@ export default function ResponsiveNavbar() {
   };
 
   const menuItems = [
-    { name: 'Trang chủ', href: '/' },
-    { name: 'Dịch vụ', href: '/dich-vu' },
-    { name: 'Sản phẩm', href: '/san-pham' },
-    { name: 'Liên hệ', href: '/lien-he' },
-    { name: 'Giới thiệu', href: '/gioi-thieu' },
+    { name: 'Home', href: '/' },
+    { name: 'Services', href: '/services' },
+    { name: 'Portfolio', href: '/portfolio' },
   ];
 
   return (

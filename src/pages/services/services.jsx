@@ -16,18 +16,18 @@ export default function Services() {
       <div className='relative h-[40vh] flex items-center justify-center overflow-hidden'>
         <img
           src='https://dummyimage.com/1920x400/000/fff'
-          alt='Dịch Vụ'
+          alt='Services'
           className='absolute w-full h-full object-cover object-center'
         />
         <div className='absolute inset-0 bg-black bg-opacity-50' />
         <div className='relative z-10 text-center space-y-4'>
-          <h1 className='text-5xl font-bold tracking-wider animate-fade-in'>DỊCH VỤ</h1>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in'>SERVICES</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
-              Trang chủ
+              Home page
             </a>
             <span>|</span>
-            <span className='text-red-500'>Dịch vụ</span>
+            <span className='text-red-500'>Services</span>
           </div>
         </div>
       </div>
