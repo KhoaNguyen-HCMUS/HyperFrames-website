@@ -1,83 +1,78 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { FaFacebook, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 export default function Footer() {
+  const socialLinks = [
+    {
+      id: 'facebook',
+      icon: <FaFacebook className='w-6 h-6' />,
+      href: 'https://www.facebook.com/hyperframesprod',
+      label: 'Facebook',
+    },
+    {
+      id: 'youtube',
+      icon: <FaYoutube className='w-6 h-6' />,
+      href: '#',
+      label: 'YouTube',
+    },
+    {
+      id: 'instagram',
+      icon: <FaInstagram className='w-6 h-6' />,
+      href: '#',
+      label: 'Instagram',
+    },
+    {
+      id: 'tiktok',
+      icon: <FaTiktok className='w-6 h-6' />,
+      href: '#',
+      label: 'TikTok',
+    },
+  ];
+
   return (
     <footer className='bg-black text-white pt-12 pb-8 px-6 md:px-16'>
-      <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
-        <div>
-          <h3 className='text-xl font-bold text-red-500 mb-4'>Thông tin liên hệ</h3>
-          <p className='mb-2'>HyperFrames Production</p>
-          <p className='mb-2'>
-            Điện thoại:{' '}
-            <a href='tel:0338724974' className='text-red-400 hover:underline'>
-              033 872 4974
-            </a>
-          </p>
-          <p>
-            Email:{' '}
-            <a href='mailto:contact@hyperframes.media' className='text-red-400 hover:underline'>
-              contact@hyperframes.media
-            </a>
-          </p>
+      <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12'>
+        {/* Contact Info */}
+        <div className='space-y-6'>
+          <h3 className='text-2xl font-bold text-red-600 mb-6'>Contact Information</h3>
+          <div className='space-y-4'>
+            <div className='flex items-center space-x-3'>
+              <FaPhone className='w-5 h-5 text-red-500' />
+              <a href='tel:0338724974' className='hover:text-red-400 transition-colors'>
+                033 872 4974
+              </a>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <FaEnvelope className='w-5 h-5 text-red-500' />
+              <a href='mailto:contact@hyperframes.media' className='hover:text-red-400 transition-colors'>
+                contact@hyperframes.media
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <h3 className='text-xl font-bold text-red-500 mb-4'>Dịch vụ</h3>
-          <ul className='space-y-2'>
-            <li>
-              <Link to='/dich-vu/livestream' className='hover:text-red-400 transition'>
-                Livestream
-              </Link>
-            </li>
-            <li>
-              <Link to='/dich-vu/quay-phim' className='hover:text-red-400 transition'>
-                Quay phim
-              </Link>
-            </li>
-            <li>
-              <Link to='/dich-vu/chup-hinh' className='hover:text-red-400 transition'>
-                Chụp hình
-              </Link>
-            </li>
-            <li>
-              <Link to='/dich-vu/cho-thue-thiet-bi' className='hover:text-red-400 transition'>
-                Cho thuê thiết bị
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Mạng xã hội */}
-        <div>
-          <h3 className='text-xl font-bold text-red-500 mb-4'>Kết nối với chúng tôi</h3>
-          <ul className='space-y-2'>
-            <li>
-              <a href='https://www.facebook.com/hyperframesprod' className='hover:text-red-400 transition'>
-                Facebook
+        {/* Social Links */}
+        <div className='space-y-6'>
+          <h3 className='text-2xl font-bold text-red-600 mb-6'>Kết nối với chúng tôi</h3>
+          <div className='flex space-x-6'>
+            {socialLinks.map((link) => (
+              <a
+                key={link.id}
+                href={link.href}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-gray-400 hover:text-red-500 transition-colors duration-300'
+                aria-label={link.label}
+              >
+                {link.icon}
               </a>
-            </li>
-            <li>
-              <a href='#' className='hover:text-red-400 transition'>
-                YouTube
-              </a>
-            </li>
-            <li>
-              <a href='#' className='hover:text-red-400 transition'>
-                Instagram
-              </a>
-            </li>
-            <li>
-              <a href='#' className='hover:text-red-400 transition'>
-                Zalo
-              </a>
-            </li>
-          </ul>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* Copyright */}
-      <div className='text-center text-gray-500 text-sm mt-12'>
+      <div className='border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm'>
         © {new Date().getFullYear()} HyperFrames Production. All rights reserved.
       </div>
     </footer>
