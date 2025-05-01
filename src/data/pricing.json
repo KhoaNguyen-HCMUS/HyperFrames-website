@@ -1,0 +1,92 @@
+{
+  "livestream": {
+    "title": "GÓI DỊCH VỤ LIVESTREAM",
+    "packages": [
+      {
+        "id": "livestream-basic",
+        "name": "Gói Cơ Bản",
+        "price": "5,000,000 VNĐ",
+        "duration": "4 giờ",
+        "features": [
+          "2 Camera Full HD",
+          "Hệ thống âm thanh cơ bản",
+          "Kỹ thuật viên điều khiển",
+          "Phát sóng lên 1 nền tảng",
+          "Backdrop đơn giản"
+        ]
+      },
+      {
+        "id": "livestream-pro",
+        "name": "Gói Chuyên Nghiệp",
+        "price": "10,000,000 VNĐ",
+        "duration": "6 giờ",
+        "features": [
+          "3 Camera 4K",
+          "Hệ thống âm thanh chuyên nghiệp",
+          "Đội ngũ kỹ thuật đầy đủ",
+          "Phát sóng đa nền tảng",
+          "Phông xanh chroma key",
+          "Hậu kỳ cơ bản"
+        ]
+      }
+    ]
+  },
+  "film": {
+    "title": "GÓI DỊCH VỤ QUAY PHIM",
+    "packages": [
+      {
+        "id": "quayphim-basic",
+        "name": "Gói Cơ Bản",
+        "price": "8,000,000 VNĐ",
+        "duration": "8 giờ",
+        "features": ["2 Camera 4K", "Flycam cơ bản", "Ánh sáng cơ bản", "Hậu kỳ theo kịch bản", "Phụ đề cơ bản"]
+      },
+      {
+        "id": "quayphim-pro",
+        "name": "Gói Chuyên Nghiệp",
+        "price": "15,000,000 VNĐ",
+        "duration": "12 giờ",
+        "features": [
+          "3 Camera 4K",
+          "Flycam chuyên nghiệp",
+          "Hệ thống ánh sáng đầy đủ",
+          "Kịch bản chi tiết",
+          "Hậu kỳ cao cấp",
+          "Phụ đề + Voice-over"
+        ]
+      }
+    ]
+  },
+  "photo": {
+    "title": "GÓI DỊCH VỤ CHỤP HÌNH",
+    "packages": [
+      {
+        "id": "chuphinh-basic",
+        "name": "Gói Cơ Bản",
+        "price": "3,000,000 VNĐ",
+        "duration": "4 giờ",
+        "features": [
+          "1 Nhiếp ảnh gia",
+          "Chỉnh sửa cơ bản",
+          "50 ảnh đã qua xử lý",
+          "Tất cả file gốc",
+          "Phòng chụp tiêu chuẩn"
+        ]
+      },
+      {
+        "id": "chuphinh-pro",
+        "name": "Gói Chuyên Nghiệp",
+        "price": "6,000,000 VNĐ",
+        "duration": "8 giờ",
+        "features": [
+          "2 Nhiếp ảnh gia",
+          "Chỉnh sửa chuyên sâu",
+          "100 ảnh đã qua xử lý",
+          "Tất cả file gốc",
+          "Phòng chụp cao cấp",
+          "Trang điểm cơ bản"
+        ]
+      }
+    ]
+  }
+}
