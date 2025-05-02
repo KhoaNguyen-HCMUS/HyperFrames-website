@@ -34,6 +34,7 @@ export default function ResponsiveNavbar() {
                   className='cursor-pointer h-10 mr-2 logo-glow transition-all duration-300 hover:scale-105'
                 />
               </a>
+              <span className='text-1xl font-bold text-white'>HYPERFRAMES</span>
             </div>
 
             <div className='hidden md:flex md:items-center md:space-x-6'>
