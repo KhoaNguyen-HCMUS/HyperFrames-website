@@ -12,20 +12,14 @@ export default function Footer() {
     {
       id: 'youtube',
       icon: <FaYoutube className='w-6 h-6' />,
-      href: '#',
+      href: '#https://www.youtube.com/@HyperFrames_Prod',
       label: 'YouTube',
     },
     {
       id: 'instagram',
       icon: <FaInstagram className='w-6 h-6' />,
-      href: '#',
+      href: '#https://www.instagram.com/hyperframes_prod/',
       label: 'Instagram',
-    },
-    {
-      id: 'tiktok',
-      icon: <FaTiktok className='w-6 h-6' />,
-      href: '#',
-      label: 'TikTok',
     },
   ];
 
