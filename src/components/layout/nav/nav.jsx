@@ -14,6 +14,7 @@ export default function ResponsiveNavbar() {
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
     { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Rental', href: '/rental' },
   ];
 
   return (

@@ -1,0 +1,49 @@
+{
+  "camera": {
+    "title": "BODY CAMERA",
+    "devices": [
+      {
+        "id": "camera-a7c2",
+        "name": "Sony Alpha A7CII",
+        "price": "350.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Cảm biến Full-frame 33MP", "Quay video 4K 60p", "Chống rung 5 trục IBIS", "Kèm pin + sạc"],
+        "image": "https://cdn.vjshop.vn/may-anh/mirrorless/sony/sony-alpha-7c-ii/sony-alpha-7c-ii.jpg"
+      },
+      {
+        "id": "camera-fx3",
+        "name": "Sony ILME FX3",
+        "price": "450.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Cảm biến Full-frame", "Quay video 4K 120p", "S-Cinetone", "Kèm pin + sạc"],
+        "image": "https://cdn.vjshop.vn/may-quay-phim/sony/sony-fx3/sony-fx3-1.jpg"
+      }
+    ]
+  },
+  "lens": {
+    "title": "LENS",
+    "devices": [
+      {
+        "id": "lens-2470gm",
+        "name": "Sony FE 24-70mm f/2.8 GM",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Khẩu độ f/2.8", "Chống rung OSS", "Kèm hood + filter UV"],
+        "image": "https://cdn.vjshop.vn/ong-kinh/mirrorless/sony/sony-fe-24-70mm-f28-gm/sony-fe-24-70mm-f28-gm-lens.jpg"
+      }
+    ]
+  },
+  "accessories": {
+    "title": "ACCESORIES",
+    "devices": [
+      {
+        "id": "acc-tripod",
+        "name": "Chân máy Manfrotto",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Chiều cao tối đa 170cm", "Chịu tải 8kg", "Kèm túi đựng"],
+        "image": "https://cdn.vjshop.vn/tin-tuc/tong-hop-nhung-chan-may-anh-nho-gon-gia-re-tot-nhat-hien-nay/tripod-manfrotto-compact-advance-ball-head.jpg"
+      }
+    ]
+  }
+}
