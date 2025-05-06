@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className='space-y-6'>
-          <h3 className='text-2xl font-bold text-red-600 mb-6'>Kết nối với chúng tôi</h3>
+          <h3 className='text-2xl font-bold text-red-600 mb-6'>Connect with us</h3>
           <div className='flex space-x-6'>
             {socialLinks.map((link) => (
               <a
