@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import Logo from '/logo.svg';
+import Logo from '/logo.png';
 import { Link } from 'react-router-dom';
 
 export default function ResponsiveNavbar() {
@@ -31,10 +31,9 @@ export default function ResponsiveNavbar() {
                 <img
                   src={Logo}
                   alt='HYPERFRAMES Logo'
-                  className='cursor-pointer h-10 mr-2 logo-glow transition-all duration-300 hover:scale-105'
+                  className='cursor-pointer h-10 mr-2 transition-all duration-300 hover:scale-105'
                 />
               </a>
-              <span className='text-1xl font-bold text-white'>HYPERFRAMES</span>
             </div>
 
             <div className='hidden md:flex md:items-center md:space-x-6'>
