@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import DeviceCard from '../../components/common/deviceCard/deviceCard.jsx';
-import rentalData from '../../data/rental.json';
+import { devices } from '../../data/data.js';
 
 export default function Rental() {
   const [activeTab, setActiveTab] = useState('camera');
 
-  const categories = Object.keys(rentalData).map((key) => ({
+  const categories = Object.keys(devices).map((key) => ({
     id: key,
-    title: rentalData[key].title,
+    title: devices[key].title,
   }));
 
   const scrollToContact = (e) => {
@@ -61,7 +61,7 @@ export default function Rental() {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-          {rentalData[activeTab]?.devices.map((device) => (
+          {devices[activeTab]?.devices.map((device) => (
             <DeviceCard key={device.id} device={device} />
           ))}
         </div>
