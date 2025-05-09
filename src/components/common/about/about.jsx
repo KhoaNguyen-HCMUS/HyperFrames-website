@@ -72,9 +72,11 @@ export default function About() {
               Professional Studio & Equipment
             </h3>
             <p className='text-gray-300'>
-              HYPERFRAMES tự hào là đơn vị cung cấp dịch vụ livestream chuyên nghiệp hàng đầu tại TP.HCM. Với đội ngũ
-              nhân viên giàu kinh nghiệm và trang thiết bị hiện đại, chúng tôi cam kết mang đến chất lượng tốt nhất cho
-              khách hàng.
+              Hyperframes chúng mình là đội ngũ media sáng tạo, chuyên cung cấp dịch vụ quay chụp quảng cáo, sự kiện,
+              làm phim và cho thuê thiết bị quay dựng hiện đại. Từ concept đến thành phẩm, Hyperframes luôn đồng hành để
+              biến ý tưởng thành những khung hình đầy cảm xúc. Với kinh nghiệm thực chiến cùng tinh thần sáng tạo không
+              giới hạn, chúng tôi đồng hành cùng khách hàng trong việc tạo ra những sản phẩm hình ảnh ấn tượng, chỉn chu
+              và truyền tải đúng thông điệp thương hiệu.
             </p>
             <ul className='space-y-4'>
               {features.map((item, index) => (
