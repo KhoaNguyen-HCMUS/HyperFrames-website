@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /rental
+Allow: /portfolio
+
+# Sitemap
+Sitemap: https://hyperframes.media/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*?*
