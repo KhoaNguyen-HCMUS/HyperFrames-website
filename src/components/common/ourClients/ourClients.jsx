@@ -3,11 +3,11 @@ import LogoCard from '../../common/logoCard/logoCard';
 const OurClients = () => {
   const clients = [
     { name: 'Client 1', logo: '/logo.png', style: 'dark' },
-    { name: 'Client 2', logo: '/logo.png', style: 'light' },
+    { name: 'Client 2', logo: '/logo.svg', style: 'light' },
     { name: 'Client 1', logo: '/logo.png', style: 'dark' },
-    { name: 'Client 2', logo: '/logo.png', style: 'light' },
+    { name: 'Client 2', logo: '/logo.svg', style: 'light' },
     { name: 'Client 1', logo: '/logo.png', style: 'dark' },
-    { name: 'Client 2', logo: '/logo.png', style: 'light' },
+    { name: 'Client 2', logo: '/logo.svg', style: 'light' },
   ];
 
   return (
