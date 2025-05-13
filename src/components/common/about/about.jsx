@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
+import AnimatedBackground from '../animatedBackground/animatedBackground';
 
 const AnimatedListItem = ({ item, index }) => {
   const [setCount] = useState(0);
@@ -48,8 +49,10 @@ export default function About() {
   ];
 
   return (
-    <section className='bg-black text-white py-20'>
-      <div className='max-w-6xl mx-auto px-4'>
+    <section className='relative min-h-screen bg-black text-white py-20 overflow-hidden'>
+      <AnimatedBackground />
+
+      <div className='relative max-w-6xl mx-auto px-4' style={{ zIndex: 20 }}>
         <div className='text-center mb-12'>
           <h2 className='text-4xl font-bold mb-4'>
             About <span className='text-red-600'>HYPERFRAMES</span>
