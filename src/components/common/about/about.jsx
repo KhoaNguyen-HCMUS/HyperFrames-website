@@ -42,10 +42,9 @@ const AnimatedListItem = ({ item, index }) => {
 
 export default function About() {
   const features = [
-    'Phim trường ảo chất lượng cao',
-    'Thiết bị livestream chuyên nghiệp',
-    'Đội ngũ kỹ thuật viên giàu kinh nghiệm',
-    'Hỗ trợ 24/7',
+    'Professional equipment',
+    'Skilled and experienced technical crew',
+    '24/7 technical support and assistance',
   ];
 
   return (
@@ -69,15 +68,18 @@ export default function About() {
 
           <div className='space-y-6'>
             <h3 className='text-2xl font-semibold text-red-600 hover:text-red-500 transition-colors duration-300'>
-              Professional Studio & Equipment
+              Production & Equipment Rental
             </h3>
-            <p className='text-gray-300'>
-              Hyperframes chúng mình là đội ngũ media sáng tạo, chuyên cung cấp dịch vụ quay chụp quảng cáo, sự kiện,
-              làm phim và cho thuê thiết bị quay dựng hiện đại. Từ concept đến thành phẩm, Hyperframes luôn đồng hành để
-              biến ý tưởng thành những khung hình đầy cảm xúc. Với kinh nghiệm thực chiến cùng tinh thần sáng tạo không
-              giới hạn, chúng tôi đồng hành cùng khách hàng trong việc tạo ra những sản phẩm hình ảnh ấn tượng, chỉn chu
-              và truyền tải đúng thông điệp thương hiệu.
+            <p className='text-gray-300 text-justify'>
+              We are a creative media team specializing in video production for commercials, events, music videos, short
+              films, and offering modern filming equipment rental services. From concept to completion, we work closely
+              with our clients to bring ideas to life through emotionally resonant visuals.
             </p>
+            <p className='text-gray-300 text-justify'>
+              With hands-on industry experience and a limitless creative mindset, we are committed to delivering
+              high-quality, impactful visuals that align perfectly with each brand’s message.
+            </p>
+
             <ul className='space-y-4'>
               {features.map((item, index) => (
                 <AnimatedListItem key={index} item={item} index={index} />
