@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import DeviceCard from '../../components/common/deviceCard/deviceCard.jsx';
 import { devices } from '../../data/data.js';
+import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
 
 export default function Rental() {
   const [activeTab, setActiveTab] = useState('camera');
@@ -19,23 +20,26 @@ export default function Rental() {
   };
 
   return (
-    <section className='bg-black text-white py-12 px-6'>
-      <div className='max-w-7xl mx-auto'>
-        <h2 className='text-4xl font-bold text-center mb-8'>Rental Equipment</h2>
-
-        <div className='flex items-center justify-center space-x-2 text-gray-300 mb-8'>
-          <a href='/' className='hover:text-red-500 transition-colors'>
-            Home page
-          </a>
-          <span>|</span>
-          <span className='text-red-500'>Rental Equipment</span>
+    <section className=' bg-black '>
+      <div className='relative h-[50vh] flex items-center justify-center overflow-hidden space-y-6 mb-10'>
+        <AnimatedBackground />
+        <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>RENTAL EQUIPMENTS</h1>
+          <div className='flex items-center justify-center space-x-2 text-gray-300'>
+            <a href='/' className='hover:text-red-500 transition-colors'>
+              Home page
+            </a>
+            <span>|</span>
+            <span className='text-red-500'>Rental Equipments</span>
+          </div>
+          <p className='text-center text-gray-300 max-w-2xl mx-auto mb-12 p-1'>
+            We provide professional filming equipment for production, study and practice. Students can rent equipment at
+            preferential prices.
+          </p>
         </div>
+      </div>
 
-        <p className='text-center text-gray-300 max-w-2xl mx-auto mb-12 p-1'>
-          We provide professional filming equipment for production, study and practice. Students can rent equipment at
-          preferential prices.
-        </p>
-
+      <div className='max-w-7xl mx-auto space-y-4'>
         <div className='flex flex-wrap justify-center gap-8 mb-16'>
           {categories.map((category) => (
             <button

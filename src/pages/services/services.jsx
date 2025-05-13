@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { pricing } from '../../data/data.js';
 import PricingCard from '../../components/common/pricingCard/pricingCard.jsx';
+import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
 
 const tabs = [
   { id: 'livestream', label: 'DỊCH VỤ LIVESTREAM' },
@@ -12,7 +13,7 @@ export default function Services() {
   const [activeTab, setActiveTab] = useState('livestream');
 
   return (
-    <div className='min-h-screen bg-gradient-to-b from-gray-900 to-black text-white'>
+    <div className='min-h-screen bg-black text-white'>
       <div className='relative h-[40vh] flex items-center justify-center overflow-hidden'>
         <img
           src='https://dummyimage.com/1920x400/000/fff'
@@ -21,7 +22,8 @@ export default function Services() {
         />
         <div className='absolute inset-0 bg-black bg-opacity-50' />
         <div className='relative z-10 text-center space-y-4'>
-          <h1 className='text-5xl font-bold tracking-wider animate-fade-in'>SERVICES</h1>
+          <AnimatedBackground />
+          <h1 className=' relative text-5xl font-bold tracking-wider animate-fade-in z-20'>SERVICES</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
               Home page

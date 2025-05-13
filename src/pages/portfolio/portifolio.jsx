@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ProjectCard from '../../components/common/projectCard/projectCard.jsx';
 import { projects } from '../../data/data.js';
+import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('ALL');
@@ -13,18 +14,22 @@ export default function Portfolio() {
     activeFilter === 'ALL' ? projects : projects.filter((project) => project.tag === activeFilter);
 
   return (
-    <section className='bg-black py-12 px-6'>
-      <div className='max-w-7xl mx-auto'>
-        <h2 className='text-white text-3xl font-bold mb-8 text-center'>Our Projects</h2>
-
-        <div className='flex items-center justify-center space-x-2 text-gray-300 mb-8'>
-          <a href='/' className='hover:text-red-500 transition-colors'>
-            Home page
-          </a>
-          <span>|</span>
-          <span className='text-red-500'>Portfolio</span>
+    <section className=' bg-black '>
+      <div className='relative h-[40vh] flex items-center justify-center overflow-hidden space-y-4 mb-10'>
+        <AnimatedBackground />
+        <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>OUR PROJECTS</h1>
+          <div className='flex items-center justify-center space-x-2 text-gray-300'>
+            <a href='/' className='hover:text-red-500 transition-colors'>
+              Home page
+            </a>
+            <span>|</span>
+            <span className='text-red-500'>Our projects</span>
+          </div>
         </div>
+      </div>
 
+      <div className='relative z-20 max-w-7xl mx-auto space-y-4'>
         <div className='flex flex-wrap justify-center gap-4 mb-12'>
           {tags.map((tag) => (
             <button
