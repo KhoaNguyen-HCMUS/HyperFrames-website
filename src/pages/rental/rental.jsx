@@ -21,7 +21,7 @@ export default function Rental() {
 
   return (
     <section className=' bg-black '>
-      <div className='relative h-[50vh] flex items-center justify-center overflow-hidden space-y-6 mb-10'>
+      <div className='relative h-[45vh] flex items-center justify-center overflow-hidden space-y-6 mb-10'>
         <AnimatedBackground />
         <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
           <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>RENTAL EQUIPMENTS</h1>
@@ -45,7 +45,7 @@ export default function Rental() {
             <button
               key={category.id}
               className={`
-                relative px-6 py-3 text-lg font-medium tracking-wide
+                cursor-pointer relative px-6 py-3 text-lg font-medium tracking-wide
                 transition-all duration-300 ease-in-out
                 ${
                   activeTab === category.id

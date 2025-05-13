@@ -41,7 +41,7 @@ export default function Services() {
             <button
               key={tab.id}
               className={`
-                relative px-6 py-3 text-lg font-medium tracking-wide
+                cursor-pointer relative px-6 py-3 text-lg font-medium tracking-wide
                 transition-all duration-300 ease-in-out
                 ${activeTab === tab.id ? 'text-red-500 border-b-2 border-red-500' : 'text-gray-400 hover:text-white'}
                 before:content-[''] before:absolute before:bottom-0 before:left-0
