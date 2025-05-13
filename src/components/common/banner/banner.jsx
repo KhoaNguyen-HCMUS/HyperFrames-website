@@ -40,7 +40,7 @@ export default function CinemaBanner() {
               >
                 {/* Poster */}
                 <div
-                  className='relative w-56 h-80 rounded-lg overflow-hidden shadow-2xl transform border-2 border-white/30 shadow-[0_0_15px_rgba(255,255,255,0.3)]'
+                  className='relative w-56 h-80 rounded-lg overflow-hidden transform border-2 border-white/30 shadow-[0_0_15px_rgba(255,255,255,0.3)]'
                   style={{
                     transform: `rotate(${index % 2 === 0 ? '2' : '-2'}deg) translateZ(${8 + index * 2}px)`,
                   }}
