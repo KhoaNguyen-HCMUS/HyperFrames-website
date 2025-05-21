@@ -4,9 +4,10 @@ import PricingCard from '../../components/common/pricingCard/pricingCard.jsx';
 import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
 
 const tabs = [
-  { id: 'livestream', label: 'DỊCH VỤ LIVESTREAM' },
-  { id: 'film', label: 'DỊCH VỤ QUAY PHIM' },
-  { id: 'photo', label: 'DỊCH VỤ CHỤP HÌNH' },
+  { id: 'livestream', label: 'LIVESTREAM' },
+  { id: 'highlight', label: 'QUAY PHIM HIGHLIGHT' },
+  { id: 'full-source', label: 'QUAY PHIM FULL SOURCE' },
+  { id: 'photo', label: 'CHỤP HÌNH' },
 ];
 
 export default function Services() {
@@ -56,7 +57,18 @@ export default function Services() {
           ))}
         </div>
 
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
+        <div
+          className={`grid gap-10
+          ${
+            pricing[activeTab].packages.length === 1
+              ? 'grid-cols-1 max-w-md'
+              : pricing[activeTab].packages.length === 2
+              ? 'md:grid-cols-2 max-w-3xl'
+              : 'md:grid-cols-2 lg:grid-cols-3'
+          }
+          mx-auto
+          `}
+        >
           {pricing[activeTab].packages.map((pkg) => (
             <PricingCard
               key={pkg.id}
