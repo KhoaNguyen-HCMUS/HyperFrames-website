@@ -4,55 +4,111 @@
     "packages": [
       {
         "id": "livestream-basic",
-        "name": "Gói Cơ Bản",
-        "price": "5,000,000 VNĐ",
-        "duration": "4 giờ",
+        "name": "Gói 1 Góc Máy",
+        "price": "5,500,000 VNĐ",
+        "duration": "1 buổi",
         "features": [
-          "2 Camera Full HD",
-          "Hệ thống âm thanh cơ bản",
-          "Kỹ thuật viên điều khiển",
-          "Phát sóng lên 1 nền tảng",
-          "Backdrop đơn giản"
+          "1 Camera chuyên nghiệp",
+          "Intercom/Bộ đàm (thiết bị liên lạc nội bộ)",
+          "Thiết bị thu tiếng mixer (soundcard)",
+          "Dây tín hiệu + wireless video",
+          "Kỹ thuật livestream",
+          "Record video master",
+          "Chèn hình, chạy chữ, chiếu video clip miễn phí"
+        ]
+      },
+      {
+        "id": "livestream-standard",
+        "name": "Gói 2 Góc Máy",
+        "price": "8,500,000 VNĐ",
+        "duration": "1 buổi",
+        "features": [
+          "2 Camera chuyên nghiệp",
+          "EGPU video card capture",
+          "Máy tính livestream + phần mềm",
+          "Intercom/Bộ đàm (thiết bị liên lạc nội bộ)",
+          "Tally (đèn báo lấy hình)",
+          "Thiết bị thu tiếng mixer (soundcard)",
+          "Dây tín hiệu + wireless video",
+          "Record video master",
+          "Kỹ thuật trộn hình",
+          "Kỹ thuật livestream",
+          "Chèn hình, chạy chữ, chiếu video clip miễn phí"
         ]
       },
       {
         "id": "livestream-pro",
-        "name": "Gói Chuyên Nghiệp",
-        "price": "10,000,000 VNĐ",
-        "duration": "6 giờ",
+        "name": "Gói 3 Góc Máy",
+        "price": "11,500,000 VNĐ",
+        "duration": "1 buổi",
         "features": [
-          "3 Camera 4K",
-          "Hệ thống âm thanh chuyên nghiệp",
-          "Đội ngũ kỹ thuật đầy đủ",
-          "Phát sóng đa nền tảng",
-          "Phông xanh chroma key",
-          "Hậu kỳ cơ bản"
+          "3 Camera chuyên nghiệp",
+          "Quay phim máy di chuyển gimbal (camera + gimbal + cameraman)",
+          "EGPU video card capture",
+          "Máy tính livestream + phần mềm",
+          "Intercom/Bộ đàm (thiết bị liên lạc nội bộ)",
+          "Tally (đèn báo lấy hình)",
+          "Thiết bị thu tiếng mixer (soundcard)",
+          "Dây tín hiệu + wireless video",
+          "Record video master",
+          "Kỹ thuật trộn hình",
+          "Kỹ thuật livestream",
+          "Chèn hình, chạy chữ, chiếu video clip miễn phí"
         ]
       }
     ]
   },
-  "film": {
-    "title": "GÓI DỊCH VỤ QUAY PHIM",
+  "highlight": {
+    "title": "QUAY PHIM HIGHLIGHT",
     "packages": [
       {
-        "id": "quayphim-basic",
-        "name": "Gói Cơ Bản",
-        "price": "8,000,000 VNĐ",
-        "duration": "8 giờ",
-        "features": ["2 Camera 4K", "Flycam cơ bản", "Ánh sáng cơ bản", "Hậu kỳ theo kịch bản", "Phụ đề cơ bản"]
+        "id": "highlight-basic",
+        "name": "Gói 1 Máy",
+        "price": "5,000,000 VNĐ",
+        "duration": "1 buổi",
+        "features": [
+          "Chất lượng hình ảnh: Full HD 1080P",
+          "Quay phim highlight recap: 1 máy (camera + gimbal + cameraman)",
+          "Edit video clip"
+        ]
       },
       {
-        "id": "quayphim-pro",
-        "name": "Gói Chuyên Nghiệp",
-        "price": "15,000,000 VNĐ",
-        "duration": "12 giờ",
+        "id": "highlight-standard",
+        "name": "Gói 2 Máy",
+        "price": "7,500,000 VNĐ",
+        "duration": "1 buổi",
         "features": [
-          "3 Camera 4K",
-          "Flycam chuyên nghiệp",
-          "Hệ thống ánh sáng đầy đủ",
-          "Kịch bản chi tiết",
-          "Hậu kỳ cao cấp",
-          "Phụ đề + Voice-over"
+          "Chất lượng hình ảnh: Full HD 1080P",
+          "Quay phim highlight recap: 2 máy (camera + gimbal + phụ kiện + cameraman)",
+          "Edit video clip"
+        ]
+      },
+      {
+        "id": "highlight-pro",
+        "name": "Gói 3 Máy",
+        "price": "10,000,000 VNĐ",
+        "duration": "1 buổi",
+        "features": [
+          "Chất lượng hình ảnh: Full HD 1080P",
+          "Quay phim highlight recap: 3 máy (camera + gimbal + phụ kiện + cameraman)",
+          "Edit video clip"
+        ]
+      }
+    ]
+  },
+  "full-source": {
+    "title": "DỊCH VỤ QUAY PHIM FULL SOURCE",
+    "packages": [
+      {
+        "id": "full-source-basic",
+        "name": "Quay Full Source 1 Máy",
+        "price": "4,500,000 VNĐ",
+        "duration": "1 buổi",
+        "features": [
+          "Chất lượng hình ảnh: Full HD 1080P",
+          "Quay phim full source: 1 máy (camera + chân máy + cameraman)",
+          "Máy thu tiếng mixer",
+          "Edit video clip"
         ]
       }
     ]
@@ -61,31 +117,18 @@
     "title": "GÓI DỊCH VỤ CHỤP HÌNH",
     "packages": [
       {
-        "id": "chuphinh-basic",
-        "name": "Gói Cơ Bản",
-        "price": "3,000,000 VNĐ",
-        "duration": "4 giờ",
-        "features": [
-          "1 Nhiếp ảnh gia",
-          "Chỉnh sửa cơ bản",
-          "50 ảnh đã qua xử lý",
-          "Tất cả file gốc",
-          "Phòng chụp tiêu chuẩn"
-        ]
+        "id": "event-photo-basic",
+        "name": "Chụp Hình Sự Kiện 1 Máy",
+        "price": "2,500,000 VNĐ",
+        "duration": "1 buổi",
+        "features": ["Chụp hình sự kiện: 1 máy (máy chụp hình + photographer)", "Chỉnh sửa ảnh tổng thể"]
       },
       {
-        "id": "chuphinh-pro",
-        "name": "Gói Chuyên Nghiệp",
-        "price": "6,000,000 VNĐ",
-        "duration": "8 giờ",
-        "features": [
-          "2 Nhiếp ảnh gia",
-          "Chỉnh sửa chuyên sâu",
-          "100 ảnh đã qua xử lý",
-          "Tất cả file gốc",
-          "Phòng chụp cao cấp",
-          "Trang điểm cơ bản"
-        ]
+        "id": "event-photo-pro",
+        "name": "Chụp Hình Sự Kiện 2 Máy",
+        "price": "5,000,000 VNĐ",
+        "duration": "1 buổi",
+        "features": ["Chụp hình sự kiện: 2 máy (máy chụp hình + photographer)", "Chỉnh sửa ảnh tổng thể"]
       }
     ]
   }
