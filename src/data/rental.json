@@ -1,48 +1,189 @@
 {
   "camera": {
-    "title": "BODY CAMERA",
+    "title": "CAMERA",
     "devices": [
       {
-        "id": "camera-a7c2",
-        "name": "Sony Alpha A7CII",
-        "price": "350.000 VNĐ",
+        "id": "HFsC001",
+        "name": "Sony Alpha 7C II (A7C II)",
+        "price": "550.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Cảm biến Full-frame 33MP", "Quay video 4K 60p", "Chống rung 5 trục IBIS", "Kèm pin + sạc"],
         "image": "https://cdn.vjshop.vn/may-anh/mirrorless/sony/sony-alpha-7c-ii/sony-alpha-7c-ii.jpg"
       },
       {
-        "id": "camera-fx3",
-        "name": "Sony ILME FX3",
-        "price": "450.000 VNĐ",
+        "id": "HFsC002",
+        "name": "Tamron 28-75mm f/2.8 Di III VXD G2 For Sony E",
+        "price": "250.000 VNĐ",
         "duration": "1 ngày",
-        "features": ["Cảm biến Full-frame", "Quay video 4K 120p", "S-Cinetone", "Kèm pin + sạc"],
-        "image": "https://cdn.vjshop.vn/may-quay-phim/sony/sony-fx3/sony-fx3-1.jpg"
+        "features": ["Khẩu độ f/2.8", "Chống rung VXD", "Kèm hood + filter UV"],
+        "image": "https://bizweb.dktcdn.net/100/369/815/products/tamron-28-75-f2-8-di-iii-vxd-g2-model-a063-1400x875-jpeg-1438a002-8fde-42e2-9278-68efc974e32c-ac351d2f-a72d-40fc-9e1e-1ffc087118cc.jpg?v=1700822735477"
+      },
+      {
+        "id": "HFsC003",
+        "name": "Combo Super Takuma Cine mod (35,105)",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Bộ 2 ống kính vintage", "Độ lại cho quay phim", "Kèm hood + UV"],
+        "image": "https://freight.cargo.site/w/1200/i/2b67aba10d16b3de2a03fb1da2d3271182e047356b5ebe80577349e48841cd16/Lens-Main-Image_1.jpg"
+      },
+      {
+        "id": "HFsC004",
+        "name": "Sony Alpha A6300 kit 16-50mm",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Cảm biến APS-C", "Quay video 4K", "Kèm kit lens 16-50mm", "Kèm pin + sạc"],
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/297/199/products/255661114-4741294879235512-495993967466155981-n.jpg?v=1636715139913"
+      },
+      {
+        "id": "HFsC005",
+        "name": "Sony E 50mm F1.8 OSS | SEL50F18",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Khẩu độ f/1.8", "Ống kính chân dung", "Chống rung OSS", "Kèm hood + UV"],
+        "image": "https://www.sony.co.nz/image/9f0fb3280faf036e86dbe8d39d79dc4a?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9"
+      },
+      {
+        "id": "HFsC006",
+        "name": "Sony Sonnar T* FE 35 mm F2.8 ZA",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Khẩu độ f/2.8", "Ống kính góc rộng", "Hệ Zeiss T*", "Kèm hood + UV"],
+        "image": "https://www.sony.com.vn/image/514690ec00fff404a14ae0ace8a41f31?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9"
+      },
+      {
+        "id": "HFsC007",
+        "name": "SONY FE 85mm F/1.8 (SEL85F18)",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Khẩu độ f/1.8", "Ống kính chân dung", "Chống rung OSS", "Kèm hood + UV"],
+        "image": "https://www.sony.com.vn/image/c0f04316bc61cb587fb6c7606e564c52?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9"
       }
     ]
   },
-  "lens": {
-    "title": "LENS",
+  "lighting": {
+    "title": "THIẾT BỊ ÁNH SÁNG",
     "devices": [
       {
-        "id": "lens-2470gm",
-        "name": "Sony FE 24-70mm f/2.8 GM",
-        "price": "200.000 VNĐ",
+        "id": "HFsL001",
+        "name": "Amaran 300c",
+        "price": "300.000 VNĐ",
         "duration": "1 ngày",
-        "features": ["Khẩu độ f/2.8", "Chống rung OSS", "Kèm hood + filter UV"],
-        "image": "https://cdn.vjshop.vn/ong-kinh/mirrorless/sony/sony-fe-24-70mm-f28-gm/sony-fe-24-70mm-f28-gm-lens.jpg"
+        "features": ["Đèn LED", "Công suất 300W", "Kèm pin + sạc"],
+        "image": "https://zshop.vn/images/companies/1/san_pham/PKMA/flash/amaran%20300c%201.jpg?1700558690240"
+      },
+      {
+        "id": "HFsL003",
+        "name": "Godox DP400III V",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn studio", "Công suất 400W", "Kèm dây nguồn"],
+        "image": "https://zshop.vn/images/companies/1/san_pham/PKMA/flash/godox-dp400iii-v-studio-flash%201.jpg?1710299296665"
+      },
+      {
+        "id": "HFsL004",
+        "name": "Chân đèn nhỏ",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Chiều cao tối đa 120cm", "Chân đèn studio", "Kèm túi đựng"],
+        "image": "https://tokyocamera.vn/wp-content/uploads/2024/03/Chan-den-nho-Victory-MD-200-2.jpg"
+      },
+      {
+        "id": "HFsL005",
+        "name": "China ball",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Softbox dạng bóng", "Khuếch tán ánh sáng", "Kèm đui đèn"],
+        "image": "https://phukienmayanhdslr.com/image/cache/catalog/24-tan-sang-hat-sang/24165/2416501-softbox-cau-china-ball-lightupfoto-65cm-750x410.webp"
+      }
+    ]
+  },
+  "sound": {
+    "title": "THIẾT BỊ ÂM THANH",
+    "devices": [
+      {
+        "id": "HFsS001",
+        "name": "Micro Comica Audio VM10 Pro",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro shotgun", "Kèm windshield", "Shock mount"],
+        "image": "https://www.newsshooter.com/wp-content/uploads/2022/08/Screenshot-2022-08-26-at-10.49.05-AM-740x490.png"
+      },
+      {
+        "id": "HFsS002",
+        "name": "Microphones Rode Videomicro",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro shotgun nhỏ gọn", "Kèm windshield", "Shock mount"],
+        "image": "https://zshop.vn/images/detailed/53/VideoMic_Pro_Rycote1.jpg"
+      },
+      {
+        "id": "HFsS003",
+        "name": "Micro Hollyland Lark Max Duo",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro wireless", "2 micro + 1 thu", "Kèm phụ kiện"],
+        "image": "https://martcom.eu/assets/media/brands/hollyland/LARK-MAX-Duo-2_Hollyland_Hollyland-Lark-Max-Duo-sistema-microfonico-wireless-con-2-microfoni-2-trasmettitori-e-ricevitore-nero_01.jpg"
+      },
+      {
+        "id": "HFsS004",
+        "name": "Ulanzi AM18",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro dynamic", "Kết nối USB-C", "Kèm giá đỡ", "Kèm windshield"],
+        "image": "https://www.newsshooter.com/wp-content/uploads/2023/08/Ulanzi-U-Mic-AM18-Wireless-Pro-Microphone_04-740x493.jpg"
       }
     ]
   },
   "accessories": {
-    "title": "ACCESORIES",
+    "title": "PHỤ KIỆN",
     "devices": [
       {
-        "id": "acc-tripod",
-        "name": "Chân máy Manfrotto",
+        "id": "HFsA001",
+        "name": "Gimbal DJI RS 2 (Ronin-S 2) Pro Combo",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tải trọng 4.5kg", "Pin 12 tiếng", "Kèm phụ kiện", "Hỗ trợ cân bằng tự động"],
+        "image": "https://product.hstatic.net/200000388631/product/1_7fde25015eba4c51aa0e2d5b5bbc9b32.jpg"
+      },
+      {
+        "id": "HFsA002",
+        "name": "Filter K&F Concept 2 in 1 CPL + ND4-64 82mm",
         "price": "100.000 VNĐ",
         "duration": "1 ngày",
-        "features": ["Chiều cao tối đa 170cm", "Chịu tải 8kg", "Kèm túi đựng"],
-        "image": "https://cdn.vjshop.vn/tin-tuc/tong-hop-nhung-chan-may-anh-nho-gon-gia-re-tot-nhat-hien-nay/tripod-manfrotto-compact-advance-ball-head.jpg"
+        "features": ["Filter 2 trong 1", "CPL + Variable ND", "Kèm hộp đựng", "Đường kính 82mm"],
+        "image": "https://ae01.alicdn.com/kf/Sfaf3cf81647e4168872903a0ecd5054ar.jpg_640x640q90.jpg"
+      },
+      {
+        "id": "HFsA003",
+        "name": "Filter K&F concept Black Mist 1/4 Nano X",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Hiệu ứng mờ nhẹ", "Giảm độ tương phản", "Kèm hộp đựng"],
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/507/659/products/sku-1717v1-8-1200x1200-37ab1db6-80ca-4cbd-9ca8-cd0de391680e-f009244f-ee0f-485a-9667-11bd0725be08.jpg?v=1724486779403"
+      },
+      {
+        "id": "HFsA004",
+        "name": "PORTKEYS PT6 6\" 4K HDMI",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Màn hình 6 inch", "Độ phân giải 4K", "Kèm pin + sạc", "Kèm cáp HDMI"],
+        "image": "https://tokyocamera.vn/wp-content/uploads/2024/06/portkeys-pt6-7.jpg"
+      },
+      {
+        "id": "HFsA005",
+        "name": "Pin SmallRig VB99 mini V Mount 3580",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Dung lượng 99Wh", "Cổng D-tap", "Kèm sạc", "Hỗ trợ sạc nhanh"],
+        "image": "https://www.bhphotovideo.com/images/fb/smallrig_vb212_mini_v_mount_1817895.jpg"
+      },
+      {
+        "id": "HFsA006",
+        "name": "Chân máy quay Benro KH25PCN",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Chiều cao tối đa 170cm", "Chịu tải 8kg", "Kèm túi đựng", "Fluid head"],
+        "image": "https://bizweb.dktcdn.net/100/321/653/products/benro-video-tripod-kh25p-8.jpg?v=1623826285077"
       }
     ]
   }
