@@ -11,10 +11,10 @@ export default function ResponsiveNavbar() {
   };
 
   const menuItems = [
-    { name: 'Home', href: '/' },
-    { name: 'Services', href: '/services' },
-    { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Rental', href: '/rental' },
+    { name: 'Trang chủ', href: '/' },
+    { name: 'Dịch vụ', href: '/services' },
+    { name: 'Dự án', href: '/portfolio' },
+    { name: 'Cho thuê', href: '/rental' },
   ];
 
   return (

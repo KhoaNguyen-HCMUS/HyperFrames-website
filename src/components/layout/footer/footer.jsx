@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
-import {
-  FaFacebook,
-  FaPhone,
-  FaEnvelope,
-  FaYoutube,
-  FaInstagram,
-  FaMapMarkerAlt,
-  FaClock,
-  FaChevronUp,
-} from 'react-icons/fa';
+import { FaFacebook, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaMapMarkerAlt, FaChevronUp } from 'react-icons/fa';
 
 export default function EnhancedFooter() {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -60,10 +51,10 @@ export default function EnhancedFooter() {
   ];
 
   const quickLinks = [
-    { title: 'Home', href: '/' },
-    { title: 'Services', href: '/services' },
-    { title: 'Portfolio', href: '/portfolio' },
-    { title: 'Rental', href: '/rental' },
+    { title: 'Trang chủ', href: '/' },
+    { title: 'Dịch vụ', href: '/services' },
+    { title: 'Dự án', href: '/portfolio' },
+    { title: 'Cho thuê', href: '/rental' },
   ];
 
   return (
@@ -87,7 +78,7 @@ export default function EnhancedFooter() {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-12 py-12 border-b border-gray-800'>
           {/* Quick Links */}
           <div className='space-y-6'>
-            <h3 className='text-xl font-bold text-red-500'>Quick Links</h3>
+            <h3 className='text-xl font-bold text-red-500'>Đường dẫn nhanh</h3>
             <ul className='space-y-3'>
               {quickLinks.map((link) => (
                 <li key={link.title}>
@@ -105,12 +96,12 @@ export default function EnhancedFooter() {
 
           {/* Contact Info */}
           <div className='space-y-6'>
-            <h3 className='text-xl font-bold text-red-500'>Contact Information</h3>
+            <h3 className='text-xl font-bold text-red-500'>Thông tin liên hệ</h3>
             <div className='space-y-4'>
               <div className='flex items-start space-x-3'>
                 <FaPhone className='w-5 h-5 text-red-500 mt-1 flex-shrink-0' />
                 <div>
-                  <p className='text-gray-300 font-medium'>Phone:</p>
+                  <p className='text-gray-300 font-medium'>Điện thoại:</p>
                   <a href='tel:0338724974' className='text-gray-400 hover:text-red-400 transition-colors'>
                     033 872 4974
                   </a>
@@ -119,7 +110,7 @@ export default function EnhancedFooter() {
               <div className='flex items-start space-x-3'>
                 <FaEnvelope className='w-5 h-5 text-red-500 mt-1 flex-shrink-0' />
                 <div>
-                  <p className='text-gray-300 font-medium'>Email</p>
+                  <p className='text-gray-300 font-medium'>Email:</p>
                   <a
                     href='mailto:contact@hyperframes.media'
                     className='text-gray-400 hover:text-red-400 transition-colors'
@@ -131,8 +122,8 @@ export default function EnhancedFooter() {
               <div className='flex items-start space-x-3'>
                 <FaMapMarkerAlt className='w-5 h-5 text-red-500 mt-1 flex-shrink-0' />
                 <div>
-                  <p className='text-gray-300 font-medium'>Address</p>
-                  <p className='text-gray-400'>Ho Chi Minh city, Viet Nam</p>
+                  <p className='text-gray-300 font-medium'>Địa chỉ:</p>
+                  <p className='text-gray-400'>Thành phố Hồ Chí Minh, Việt Nam</p>
                 </div>
               </div>
             </div>
@@ -140,8 +131,8 @@ export default function EnhancedFooter() {
 
           {/* Social Media */}
           <div className='space-y-6'>
-            <h3 className='text-xl font-bold text-red-500'>Connect with us</h3>
-            <p className='text-gray-400'>Follow us on social networks to update the latest news</p>
+            <h3 className='text-xl font-bold text-red-500'>Kết nối với chúng tôi</h3>
+            <p className='text-gray-400'>Theo dõi chúng tôi trên các mạng xã hội để cập nhật tin tức mới nhất</p>
             <div className='flex flex-wrap gap-4'>
               {socialLinks.map((link) => (
                 <a
@@ -160,7 +151,7 @@ export default function EnhancedFooter() {
         </div>
 
         <div className='pt-8 text-center text-gray-400 text-sm flex flex-col md:flex-row md:justify-between items-center'>
-          <p>© {new Date().getFullYear()} HyperFrames Production. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} HyperFrames Production. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
 
