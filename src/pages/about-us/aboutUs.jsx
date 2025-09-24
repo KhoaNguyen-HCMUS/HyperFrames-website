@@ -14,6 +14,12 @@ export default function AboutUs() {
       </div>
 
       <div className='relative max-w-6xl mx-auto px-4 py-16 z-10'>
+        <p className='text-lg sm:text-xl text-gray-200 leading-relaxed text-center'>
+          HyperFrames tin rằng mỗi khung hình không chỉ là giới hạn, mà là điểm khởi đầu cho một thế giới rộng lớn hơn.
+          Với đội ngũ HyperFrames, phá bỏ giới hạn và kiến tạo giải pháp sản xuất đa phương tiện, truyền thông sự kiện
+          và sản xuất phim chuyên nghiệp phù hợp, là cách mà chúng tôi mang đến trải nghiệm dịch vụ tốt nhất cho đối
+          tác.
+        </p>
         <div className='mt-24 mb-16'>
           <h2 className='text-3xl font-bold text-center mb-16'>
             <span className='text-red-600'>CORE VALUE</span> - GIÁ TRỊ CỐT LÕI
@@ -23,7 +29,6 @@ export default function AboutUs() {
           </div>
 
           <div className='grid md:grid-cols-3 gap-10 mt-12'>
-            {/* Core Value 1 */}
             <div className='bg-black/40 backdrop-blur-sm border border-gray-800 rounded-lg p-8 hover:border-red-600 transition-all duration-300 hover:shadow-lg hover:shadow-red-900/20 group'>
               <div className='bg-gradient-to-br from-red-600 to-red-800 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto text-2xl font-bold group-hover:scale-110 transition-transform duration-300'>
                 H
