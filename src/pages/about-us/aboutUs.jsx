@@ -1,27 +1,19 @@
-import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
-
 export default function AboutUs() {
   return (
     <div className='bg-black text-white'>
-  		<div className="relative mx-auto max-w-7xl rounded-3xl overflow-hidden">
-		<img
-			src="/team.jpg"
-			alt="HyperFrames team"
-			className="absolute inset-0 z-10 h-full w-full object-cover"
-		/>
+      <div className='relative mx-auto max-w-7xl rounded-3xl overflow-hidden'>
+        <img src='/team.jpg' alt='HyperFrames team' className='absolute inset-0 z-10 h-full w-full object-cover' />
 
-		<div className="absolute inset-0 z-10 bg-black/60" />
+        <div className='absolute inset-0 z-10 bg-black/60' />
 
-		<div className="flex min-h-[60vh] items-center justify-center px-4">
-			<h1 className="z-20 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white text-center leading-tight tracking-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-			Xin chào, chúng tôi là HYPER <span className="text-red-500">FRAME</span>S
-			</h1>
-		</div>
-		</div>
+        <div className='flex min-h-[60vh] items-center justify-center px-4'>
+          <h1 className='z-20 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white text-center leading-tight tracking-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]'>
+            Xin chào, chúng tôi là HYPER <span className='text-red-500'>FRAME</span>S
+          </h1>
+        </div>
+      </div>
 
       <div className='relative max-w-6xl mx-auto px-4 py-16 z-10'>
-	  	
-
         <div className='mt-24 mb-16'>
           <h2 className='text-3xl font-bold text-center mb-16'>
             <span className='text-red-600'>CORE VALUE</span> - GIÁ TRỊ CỐT LÕI
