@@ -1,14 +1,19 @@
+import CoreValue from '../../components/common/coreValue/coreValue';
+import LeadershipMember from '../../components/common/leadershipMember/leadershipMember';
+import TeamMember from '../../components/common/teamMember/teamMember';
+import { leadershipTeam, teamMembers } from '../../data/data';
+
 export default function AboutUs() {
+  const leadershipTeamData = leadershipTeam.leader;
+  const teamMembersData = teamMembers.members;
   return (
     <div className='bg-black text-white'>
       <div className='relative mx-auto max-w-7xl rounded-3xl overflow-hidden'>
         <img src='/team.jpg' alt='HyperFrames team' className='absolute inset-0 z-10 h-full w-full object-cover' />
-
         <div className='absolute inset-0 z-10 bg-black/60' />
-
         <div className='flex min-h-[60vh] items-center justify-center px-4'>
           <h1 className='z-20 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white text-center leading-tight tracking-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]'>
-            Xin chào, chúng tôi là HYPER <span className='text-red-500'>FRAME</span>S
+            Xin chào, chúng tôi là HYPER <span className='text-red-500'>FRAMES</span>
           </h1>
         </div>
       </div>
@@ -20,6 +25,7 @@ export default function AboutUs() {
           và sản xuất phim chuyên nghiệp phù hợp, là cách mà chúng tôi mang đến trải nghiệm dịch vụ tốt nhất cho đối
           tác.
         </p>
+
         <div className='mt-24 mb-16'>
           <h2 className='text-3xl font-bold text-center mb-16'>
             <span className='text-red-600'>CORE VALUE</span> - GIÁ TRỊ CỐT LÕI
@@ -29,36 +35,96 @@ export default function AboutUs() {
           </div>
 
           <div className='grid md:grid-cols-3 gap-10 mt-12'>
-            <div className='bg-black/40 backdrop-blur-sm border border-gray-800 rounded-lg p-8 hover:border-red-600 transition-all duration-300 hover:shadow-lg hover:shadow-red-900/20 group'>
-              <div className='bg-gradient-to-br from-red-600 to-red-800 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto text-2xl font-bold group-hover:scale-110 transition-transform duration-300'>
-                H
-              </div>
-              <h3 className='text-xl font-bold mb-4 text-center'>Hyper Highlight</h3>
-              <p className='text-gray-400 text-center'>
-                Khai thác và làm nổi bật những chi tiết đắt giá nhất để câu chuyện được gói gọn trong một từ: "chạm"
-              </p>
-            </div>
+            <CoreValue
+              letter='H'
+              title='Hyper Highlight'
+              description="Khai thác và làm nổi bật những chi tiết đắt giá nhất để câu chuyện được gói gọn trong một từ: 'chạm'"
+            />
 
-            <div className='bg-black/40 backdrop-blur-sm border border-gray-800 rounded-lg p-8 hover:border-red-600 transition-all duration-300 hover:shadow-lg hover:shadow-red-900/20 group'>
-              <div className='bg-gradient-to-br from-red-600 to-red-800 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto text-2xl font-bold group-hover:scale-110 transition-transform duration-300'>
-                F
-              </div>
-              <h3 className='text-xl font-bold mb-4 text-center'>Hyper Freedom</h3>
-              <p className='text-gray-400 text-center'>
-                Bằng ngôn ngữ hình ảnh tự do, chúng tôi tin rằng mọi câu chuyện đều có thể được kể theo nhiều cách khác
-                nhau.
-              </p>
-            </div>
+            <CoreValue
+              letter='F'
+              title='Hyper Freedom'
+              description='Bằng ngôn ngữ hình ảnh tự do, chúng tôi tin rằng mọi câu chuyện đều có thể được kể theo nhiều cách khác nhau.'
+            />
 
-            {/* Core Value 3 */}
-            <div className='bg-black/40 backdrop-blur-sm border border-gray-800 rounded-lg p-8 hover:border-red-600 transition-all duration-300 hover:shadow-lg hover:shadow-red-900/20 group'>
-              <div className='bg-gradient-to-br from-red-600 to-red-800 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto text-2xl font-bold group-hover:scale-110 transition-transform duration-300'>
-                S
+            <CoreValue
+              letter='S'
+              title='Hyper Support'
+              description='Chúng tôi chọn kiến tạo thành công chung để đồng hành cùng đối tác.'
+            />
+          </div>
+        </div>
+
+        <div className='mt-24 mb-16'>
+          <h2 className='text-3xl font-bold text-center mb-16'>
+            <span className='text-red-600'>CORE TEAM</span>
+          </h2>
+
+          <div className='mb-16'>
+            <h3 className='text-2xl font-bold text-center mb-10 text-red-500'>Hyper Leadership</h3>
+            <div className='grid md:grid-cols-3 gap-8'>
+              {leadershipTeamData.map((leader, index) => (
+                <LeadershipMember key={index} name={leader.name} role={leader.role} imgSrc={leader.imgSrc} />
+              ))}
+            </div>
+          </div>
+
+          <div className='mb-10'>
+            <h3 className='text-2xl font-bold text-center mb-10'>Our Team Members</h3>
+
+            <div className='relative group'>
+              <div className='absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none'></div>
+
+              <div className='absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none'></div>
+
+              <button
+                className='absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-red-600/80 text-white flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-red-600'
+                onClick={() => document.getElementById('team-scroll').scrollBy({ left: -300, behavior: 'smooth' })}
+              >
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  className='w-6 h-6'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 19l-7-7 7-7' />
+                </svg>
+              </button>
+              <button
+                className='absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-red-600/80 text-white flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-red-600'
+                onClick={() => document.getElementById('team-scroll').scrollBy({ left: 300, behavior: 'smooth' })}
+              >
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  className='w-6 h-6'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
+                </svg>
+              </button>
+
+              <div
+                id='team-scroll'
+                className='overflow-x-auto pb-6 scrollbar-hide scroll-smooth'
+                style={{
+                  scrollbarWidth: 'none',
+                  msOverflowStyle: 'none',
+                }}
+              >
+                <div className='flex space-x-8 min-w-max px-6 py-4'>
+                  {teamMembersData.map((member, index) => (
+                    <div
+                      key={index}
+                      className='transform transition-all duration-300 hover:scale-105 hover:-translate-y-2'
+                    >
+                      <TeamMember name={member.name} position={member.position} imgSrc={member.imgSrc} />
+                    </div>
+                  ))}
+                </div>
               </div>
-              <h3 className='text-xl font-bold mb-4 text-center'>Hyper Support</h3>
-              <p className='text-gray-400 text-center'>
-                Chúng tôi chọn kiến tạo thành công chung để đồng hành cùng đối tác.
-              </p>
             </div>
           </div>
         </div>

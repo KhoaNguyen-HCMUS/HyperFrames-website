@@ -1,0 +1,19 @@
+{
+  "leader": [
+    {
+      "name": "Mr. Phạm Công Thắng",
+      "role": "Founder - Head of Production",
+      "imgSrc": "/team/thang.jpg"
+    },
+    {
+      "name": "Mr. Đỗ Phương Nam",
+      "role": "Co-Founder - Head of Photography",
+      "imgSrc": "/team/nam.jpg"
+    },
+    {
+      "name": "Ms. Lê Ngọc Xuân Trang",
+      "role": "Account - Brand Manager",
+      "imgSrc": "/team/trang.jpg"
+    }
+  ]
+}
