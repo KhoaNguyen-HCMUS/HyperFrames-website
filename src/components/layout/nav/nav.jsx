@@ -12,6 +12,7 @@ export default function ResponsiveNavbar() {
 
   const menuItems = [
     { name: 'Trang chủ', href: '/' },
+    { name: 'Về chúng tôi', href: '/about-us' },
     { name: 'Dịch vụ', href: '/services' },
     { name: 'Dự án', href: '/portfolio' },
     { name: 'Cho thuê', href: '/rental' },

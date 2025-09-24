@@ -12,9 +12,9 @@ export default function About() {
         <div className='grid md:grid-cols-2 gap-12 items-center'>
           <div className='group'>
             <img
-              src='https://dummyimage.com/1200x600/000000/ffffff&text=Hello+we+are+HYPERFRAMES'
+              src='/team.jpg'
               alt='Studio Setup'
-              className='rounded-lg shadow-2xl border-2 border-red-600 transition-transform duration-300 transform hover:scale-105'
+              className='rounded-lg shadow-2xl transition-transform duration-300 transform hover:scale-105'
             />
           </div>
 
