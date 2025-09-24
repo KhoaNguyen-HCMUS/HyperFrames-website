@@ -15,22 +15,16 @@ export default function Services() {
 
   return (
     <div className='min-h-screen bg-black text-white'>
-      <div className='relative h-[40vh] flex items-center justify-center overflow-hidden'>
-        <img
-          src='https://dummyimage.com/1920x400/000/fff'
-          alt='Services'
-          className='absolute w-full h-full object-cover object-center'
-        />
-        <div className='absolute inset-0 bg-black bg-opacity-50' />
-        <div className='relative z-10 text-center space-y-4'>
-          <AnimatedBackground />
-          <h1 className=' relative text-5xl font-bold tracking-wider animate-fade-in z-20'>SERVICES</h1>
+      <div className='relative h-[40vh] flex items-center justify-center overflow-hidden space-y-4 mb-10'>
+        <AnimatedBackground />
+        <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>DỊCH VỤ</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
               Home page
             </a>
             <span>|</span>
-            <span className='text-red-500'>Services</span>
+            <span className='text-red-500'>Dịch vụ</span>
           </div>
         </div>
       </div>
