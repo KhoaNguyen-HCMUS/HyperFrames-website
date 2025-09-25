@@ -1,32 +1,41 @@
-{
-  "livestream": {
-    "id": "livestream",
-    "title": "DỊCH VỤ LIVESTREAM",
-    "items": [
-      {
-        "id": "livestream-phong-xanh",
-        "title": "Livestream key phông xanh, phim trường ảo chất lượng",
-        "image": "https://dummyimage.com/1200x900/000/fff",
-        "description": "Dịch vụ livestream chuyên nghiệp với phông xanh và phim trường ảo",
-        "features": ["Chất lượng phát sóng Full HD", "Phim trường ảo đa dạng", "Đội ngũ kỹ thuật chuyên nghiệp"],
-        "price": "Liên hệ báo giá"
-      },
-      {
-        "id": "livestream-talkshow",
-        "title": "Livestream talkshow, webinar, đào tạo trực tuyến",
-        "image": "https://dummyimage.com/1200x900/000/fff",
-        "description": "Giải pháp trực tuyến cho các sự kiện talkshow và đào tạo",
-        "features": ["Hệ thống âm thanh chuyên nghiệp", "Nhiều góc máy đa dạng", "Tương tác trực tuyến với người xem"],
-        "price": "Liên hệ báo giá"
-      },
-      {
-        "id": "livestream-truyen-hinh",
-        "title": "Livestream cầu truyền hình, họp trực tuyến hàng đầu",
-        "image": "https://dummyimage.com/1200x900/000/fff",
-        "description": "Dịch vụ cầu truyền hình chất lượng cao",
-        "features": ["Kết nối đa điểm ổn định", "Chất lượng hình ảnh 4K", "Hỗ trợ kỹ thuật 24/7"],
-        "price": "Liên hệ báo giá"
-      }
+[
+  {
+    "title": "SẢN XUẤT ĐA PHƯƠNG TIỆN",
+    "services": [
+      { "name": "Viral clip, short video" },
+      { "name": "Podcast" },
+      { "name": "Nội dung social media (TikTok, Reels, Shorts)" },
+      { "name": "Thiết kế hình ảnh" }
     ]
+  },
+  {
+    "title": "FILM & CORPORATE PRODUCTION",
+    "services": [
+      { "name": "Phim ngắn (Short Film)" },
+      { "name": "Phim doanh nghiệp (Corporate Film)" },
+      { "name": "TVC, phim quảng cáo" },
+      { "name": "MV ca nhạc (Music Video)" }
+    ]
+  },
+  {
+    "title": "EVENT MEDIA PRODUCTION",
+    "services": [
+      { "name": "Chụp ảnh sự kiện" },
+      { "name": "Quay phim sự kiện" },
+      { "name": "Hậu kỳ hình ảnh sự kiện" },
+      { "name": "Livestream sự kiện" }
+    ]
+  },
+  {
+    "title": "CHO THUÊ THIẾT BỊ QUAY CHỤP",
+    "services": [
+      { "name": "Máy ảnh Canon, Sony" },
+      { "name": "Đèn, micro, gimbal, flycam" },
+      { "name": "Phụ kiện quay" }
+    ]
+  },
+  {
+    "title": "TIỆM ẢNH HYPERFRAMES",
+    "services": [{ "name": "Gói chụp kỷ yếu" }, { "name": "Gói chụp profile" }, { "name": "Gói chụp lễ tốt nghiệp" }]
   }
-}
+]

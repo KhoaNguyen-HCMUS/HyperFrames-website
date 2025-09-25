@@ -1,27 +1,53 @@
-import { useState } from 'react';
-import { pricing } from '../../data/data.js';
-import PricingCard from '../../components/common/pricingCard/pricingCard.jsx';
 import AnimatedBackground from '../../components/common/animatedBackground/animatedBackground.jsx';
+import { FaArrowRight } from 'react-icons/fa';
+import { services } from '../../data/data.js';
+// Service Card Component
+const ServiceCard = ({ title, services }) => {
+  return (
+    <div className='rounded-xl overflow-hidden hover:shadow-2xl shadow-lg transition-all duration-300 transform hover:scale-[1.02] hover:-translate-y-1 bg-gradient-to-br from-black to-red-500 flex flex-col h-full'>
+      <div className='relative flex flex-col h-full' style={{ minHeight: '420px' }}>
+        <div className='p-8 pb-16 flex-grow'>
+          <div className='w-20 h-20 mb-8 relative z-2 flex items-center'>
+            <img src='/logo.png' alt='HyperFrames Logo' className='w-full h-full object-contain' />
+          </div>
+          <h3 className='text-2xl font-bold mb-6 tracking-wide relative z-10'>{title}</h3>
+          <ul className='space-y-3 relative z-10'>
+            {services.map((service, index) => (
+              <li key={index} className='flex items-center group'>
+                <p className='text-white/90'>{service.name}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-const tabs = [
-  { id: 'livestream', label: 'LIVESTREAM' },
-  { id: 'highlight', label: 'QUAY PHIM HIGHLIGHT' },
-  { id: 'full-source', label: 'QUAY PHIM FULL SOURCE' },
-  { id: 'photo', label: 'CHỤP HÌNH' },
-];
+        {/* "Tham khảo báo giá" link always fixed at bottom right corner */}
+        <div className='absolute bottom-4 right-6 z-10'>
+          <a
+            href='#'
+            className='inline-flex items-center text-white/90 hover:text-white font-medium transition-colors group'
+          >
+            Tham khảo báo giá
+            <FaArrowRight className='ml-2 transition-transform duration-300 group-hover:translate-x-1' size={12} />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default function Services() {
-  const [activeTab, setActiveTab] = useState('livestream');
+  // Service data
+  const servicesData = services;
 
   return (
-    <div className='min-h-screen bg-black text-white'>
+    <div className='bg-black text-white min-h-screen'>
       <div className='relative h-[40vh] flex items-center justify-center overflow-hidden space-y-4 mb-10'>
         <AnimatedBackground />
         <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
           <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>DỊCH VỤ</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
-              Home page
+              Trang chủ
             </a>
             <span>|</span>
             <span className='text-red-500'>Dịch vụ</span>
@@ -29,48 +55,10 @@ export default function Services() {
         </div>
       </div>
 
-      {/* Service Tabs */}
-      <div className='max-w-7xl mx-auto px-4 py-12'>
-        <div className='flex flex-wrap justify-center gap-8 mb-16'>
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              className={`
-                cursor-pointer relative px-6 py-3 text-lg font-medium tracking-wide
-                transition-all duration-300 ease-in-out
-                ${activeTab === tab.id ? 'text-red-500 border-b-2 border-red-500' : 'text-gray-400 hover:text-white'}
-                before:content-[''] before:absolute before:bottom-0 before:left-0
-                before:w-0 before:h-0.5 before:bg-red-500
-                before:transition-all before:duration-300
-                hover:before:w-full
-              `}
-              onClick={() => setActiveTab(tab.id)}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
-
-        <div
-          className={`grid gap-10
-          ${
-            pricing[activeTab].packages.length === 1
-              ? 'grid-cols-1 max-w-md'
-              : pricing[activeTab].packages.length === 2
-              ? 'md:grid-cols-2 max-w-3xl'
-              : 'md:grid-cols-2 lg:grid-cols-3'
-          }
-          mx-auto
-          `}
-        >
-          {pricing[activeTab].packages.map((pkg) => (
-            <PricingCard
-              key={pkg.id}
-              name={pkg.name}
-              price={pkg.price}
-              duration={pkg.duration}
-              features={pkg.features}
-            />
+      <div className='max-w-7xl mx-auto px-4 py-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {servicesData.map((service, index) => (
+            <ServiceCard key={index} title={service.title} services={service.services} />
           ))}
         </div>
       </div>
