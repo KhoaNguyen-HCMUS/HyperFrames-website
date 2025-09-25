@@ -3,44 +3,11 @@ import LeadershipMember from '../../components/common/leadershipMember/leadershi
 import TeamMember from '../../components/common/teamMember/teamMember';
 import { leadershipTeam, teamMembers } from '../../data/data';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import { FiPlay, FiPause } from 'react-icons/fi';
-import { useState, useRef, useEffect } from 'react';
 
 export default function AboutUs() {
   const leadershipTeamData = leadershipTeam.leader;
   const teamMembersData = teamMembers.members;
-  const scrollTimerRef = useRef(null);
-  const [isAutoScrolling, setIsAutoScrolling] = useState(false);
 
-  const toggleAutoScroll = () => {
-    setIsAutoScrolling(!isAutoScrolling);
-    const scrollContainer = document.getElementById('team-scroll');
-
-    if (!isAutoScrolling) {
-      scrollTimerRef.current = setInterval(() => {
-        if (scrollContainer) {
-          scrollContainer.scrollBy({ left: 1, behavior: 'auto' });
-
-          if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth - 10) {
-            scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
-          }
-        }
-      }, 20);
-    } else {
-      if (scrollTimerRef.current) {
-        clearInterval(scrollTimerRef.current);
-        scrollTimerRef.current = null;
-      }
-    }
-  };
-
-  useEffect(() => {
-    return () => {
-      if (scrollTimerRef.current) {
-        clearInterval(scrollTimerRef.current);
-      }
-    };
-  }, []);
   return (
     <div className='bg-black text-white'>
       <div className='relative mx-auto max-w-7xl rounded-3xl overflow-hidden'>
@@ -123,13 +90,6 @@ export default function AboutUs() {
                 onClick={() => document.getElementById('team-scroll').scrollBy({ left: 300, behavior: 'smooth' })}
               >
                 <BsArrowRight className='w-5 h-5' />
-              </button>
-
-              <button
-                className='absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-2 w-8 h-8 rounded-full bg-black/70 border border-gray-600 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-red-600/80 z-20 cursor-pointer'
-                onClick={toggleAutoScroll}
-              >
-                {isAutoScrolling ? <FiPause className='w-4 h-4' /> : <FiPlay className='w-4 h-4' />}
               </button>
 
               <div
