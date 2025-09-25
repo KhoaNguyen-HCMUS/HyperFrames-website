@@ -1,29 +1,34 @@
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import { FaArrowRight } from 'react-icons/fa';
 
-export default function ServiceCard({ img, title, description, slug, className }) {
+export default function ServiceCard({ title, services }) {
   return (
-    <Link to={`/dich-vu/${slug}`} className={`block ${className}`}>
-      <div className='bg-[#1A1A1A] rounded-lg overflow-hidden shadow hover:shadow-lg transition-all duration-300 flex flex-col h-full'>
-        {/* Image */}
-        <div className='relative w-full aspect-[4/3]'>
-          <img src={img} alt={title} className='absolute top-0 left-0 w-full h-full object-cover' />
+    <div className='rounded-xl overflow-hidden hover:shadow-2xl shadow-lg transition-all duration-300 transform hover:scale-[1.02] hover:-translate-y-1 bg-gradient-to-br from-black to-red-500 flex flex-col h-full'>
+      <div className='relative flex flex-col h-full' style={{ minHeight: '420px' }}>
+        <div className='p-8 pb-16 flex-grow'>
+          <div className='w-20 h-20 mb-8 relative z-2 flex items-center'>
+            <img src='/logo.png' alt='HyperFrames Logo' className='w-full h-full object-contain' />
+          </div>
+          <h3 className='text-2xl font-bold mb-6 tracking-wide relative z-10'>{title}</h3>
+          <ul className='space-y-3 relative z-10'>
+            {services.map((service, index) => (
+              <li key={index} className='flex items-center group'>
+                <p className='text-white/90'>{service.name}</p>
+              </li>
+            ))}
+          </ul>
         </div>
 
-        {/* Text */}
-        <div className='p-4 flex flex-col'>
-          <h3 className='text-lg font-bold text-white mb-2 line-clamp-2'>{title}</h3>
-          {description && <p className='text-sm text-gray-100 line-clamp-3'>{description}</p>}
+        {/* "Tham khảo báo giá" link always fixed at bottom right corner */}
+        <div className='absolute bottom-4 right-6 z-10'>
+          <a
+            href='#'
+            className='inline-flex items-center text-white/90 hover:text-white font-medium transition-colors group'
+          >
+            Tham khảo báo giá
+            <FaArrowRight className='ml-2 transition-transform duration-300 group-hover:translate-x-1' size={12} />
+          </a>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
-
-ServiceCard.propTypes = {
-  img: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string,
-  slug: PropTypes.string.isRequired,
-  className: PropTypes.string,
-};
