@@ -24,17 +24,17 @@ export default function Rental() {
       <div className='relative h-[45vh] flex items-center justify-center overflow-hidden space-y-6 mb-10'>
         <AnimatedBackground />
         <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
-          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>RENTAL EQUIPMENTS</h1>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>Cho thuê thiết bị</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
-              Home page
+              Trang chủ
             </a>
             <span>|</span>
-            <span className='text-red-500'>Rental Equipments</span>
+            <span className='text-red-500'>Cho thuê thiết bị</span>
           </div>
           <p className='text-center text-gray-300 max-w-2xl mx-auto mb-12 p-1'>
-            We provide professional filming equipment for production, study and practice. Students can rent equipment at
-            preferential prices.
+            Chúng tôi cung cấp thiết bị quay phim chuyên nghiệp cho sản xuất, học tập và thực hành. Các bạn học sinh,
+            sinh viên có thể thuê thiết bị với mức giá ưu đãi.
           </p>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default function Rental() {
             onClick={scrollToContact}
             className='bg-red-600 hover:bg-red-700 text-white py-2 px-6 rounded-full transition cursor-pointer'
           >
-            Contact us now!!
+            Báo giá chi tiết tại đây!
           </button>
         </div>
       </div>
