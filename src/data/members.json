@@ -1,10 +1,10 @@
 {
   "members": [
     { "name": "Mr. Huỳnh Chí Kiên", "position": "Hyper Operation", "imgSrc": "/team/kien.jpg" },
-    { "name": "Mr. Đăng Trung Trung", "position": "Hyper Capture", "imgSrc": "/team/trung.jpg" },
     { "name": "Mr. Nguyễn Lê Hồ Anh Khoa", "position": "Hyper Design", "imgSrc": "/team/khoa.jpg" },
     { "name": "Ms. Phạm Ngọc Như", "position": "Hyper Support", "imgSrc": "/team/nhu.jpg" },
-    { "name": "Mr. Trung Võ", "position": "Hyper Capture", "imgSrc": "/team/trungVo.jpg" },
-    { "name": "Mr. Nguyễn Thiện Nhân", "position": "Hyper Edit", "imgSrc": "/team/nhan.jpg" }
+    { "name": "Mr. Nguyễn Thiện Nhân", "position": "Hyper Edit", "imgSrc": "/team/nhan.jpg" },
+    { "name": "Mr. Đăng Trung Trung", "position": "Hyper Capture" },
+    { "name": "Mr. Trung Võ", "position": "Hyper Capture" }
   ]
 }

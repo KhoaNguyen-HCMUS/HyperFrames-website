@@ -106,7 +106,11 @@ export default function AboutUs() {
                       key={index}
                       className='transform transition-all duration-300 hover:scale-105 hover:-translate-y-2'
                     >
-                      <TeamMember name={member.name} position={member.position} imgSrc={member.imgSrc} />
+                      <TeamMember
+                        name={member.name}
+                        position={member.position}
+                        imgSrc={member.imgSrc || '/black.jpg'}
+                      />
                     </div>
                   ))}
                 </div>
