@@ -1,6 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa';
 
-export default function ServiceCard({ title, services }) {
+export default function ServiceCard({ title, services, url }) {
   return (
     <div className='rounded-xl overflow-hidden hover:shadow-2xl shadow-lg transition-all duration-300 transform hover:scale-[1.02] hover:-translate-y-1 bg-gradient-to-br from-black to-red-500 flex flex-col h-full'>
       <div className='relative flex flex-col h-full' style={{ minHeight: '420px' }}>
@@ -18,13 +18,12 @@ export default function ServiceCard({ title, services }) {
           </ul>
         </div>
 
-        {/* "Tham khảo báo giá" link always fixed at bottom right corner */}
         <div className='absolute bottom-4 right-6 z-10'>
           <a
-            href='#'
+            href={url.link}
             className='inline-flex items-center text-white/90 hover:text-white font-medium transition-colors group'
           >
-            Tham khảo báo giá
+            {url.title}
             <FaArrowRight className='ml-2 transition-transform duration-300 group-hover:translate-x-1' size={12} />
           </a>
         </div>

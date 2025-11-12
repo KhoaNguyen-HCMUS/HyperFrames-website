@@ -6,7 +6,11 @@
       { "name": "Podcast" },
       { "name": "Nội dung social media (TikTok, Reels, Shorts)" },
       { "name": "Thiết kế hình ảnh" }
-    ]
+    ],
+    "url": {
+      "title": "Liên hệ để được tư vấn",
+      "link": "https://www.facebook.com/hyperframesprod"
+    }
   },
   {
     "title": "FILM & CORPORATE PRODUCTION",
@@ -15,7 +19,11 @@
       { "name": "Phim doanh nghiệp (Corporate Film)" },
       { "name": "TVC, phim quảng cáo" },
       { "name": "MV ca nhạc (Music Video)" }
-    ]
+    ],
+    "url": {
+      "title": "Liên hệ để được tư vấn",
+      "link": "https://www.facebook.com/hyperframesprod"
+    }
   },
   {
     "title": "EVENT MEDIA PRODUCTION",
@@ -24,7 +32,11 @@
       { "name": "Quay phim sự kiện" },
       { "name": "Hậu kỳ hình ảnh sự kiện" },
       { "name": "Livestream sự kiện" }
-    ]
+    ],
+    "url": {
+      "title": "Liên hệ để được tư vấn",
+      "link": "https://www.facebook.com/hyperframesprod"
+    }
   },
   {
     "title": "CHO THUÊ THIẾT BỊ QUAY CHỤP",
@@ -32,10 +44,18 @@
       { "name": "Máy ảnh Canon, Sony" },
       { "name": "Đèn, micro, gimbal, flycam" },
       { "name": "Phụ kiện quay" }
-    ]
+    ],
+    "url": {
+      "title": "Xem chi tiết",
+      "link": "/rental"
+    }
   },
   {
     "title": "TIỆM ẢNH HYPERFRAMES",
-    "services": [{ "name": "Gói chụp kỷ yếu" }, { "name": "Gói chụp profile" }, { "name": "Gói chụp lễ tốt nghiệp" }]
+    "services": [{ "name": "Gói chụp kỷ yếu" }, { "name": "Gói chụp profile" }, { "name": "Gói chụp lễ tốt nghiệp" }],
+    "url": {
+      "title": "Xem chi tiết",
+      "link": "https://www.facebook.com/hyperframesprod"
+    }
   }
 ]
