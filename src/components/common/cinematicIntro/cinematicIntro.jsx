@@ -284,7 +284,7 @@ export default function CinematicIntro({ onComplete }) {
         </div>
 
         <div ref={textRef} className='space-y-2'>
-          <div className='text-xl md:text-2xl text-red-400 tracking-[0.2em] font-medium'>PHOTOGRAPHY STUDIO</div>
+          <div className='text-xl md:text-2xl text-red-400 tracking-[0.2em] font-medium'>PRODUCTION HOUSE</div>
           <div className='text-sm md:text-base text-white/70 tracking-[0.1em]'>Creating Visual Stories</div>
         </div>
       </div>
