@@ -18,13 +18,13 @@ export default function Portfolio() {
       <div className='relative h-[40vh] flex items-center justify-center overflow-hidden space-y-4 mb-10'>
         <AnimatedBackground />
         <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
-          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>OUR PROJECTS</h1>
+          <h1 className='text-5xl font-bold tracking-wider animate-fade-in text-white'>Dự án của chúng tôi</h1>
           <div className='flex items-center justify-center space-x-2 text-gray-300'>
             <a href='/' className='hover:text-red-500 transition-colors'>
-              Home page
+              Trang chủ
             </a>
             <span>|</span>
-            <span className='text-red-500'>Our projects</span>
+            <span className='text-red-500'>Dự án của chúng tôi</span>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function Portfolio() {
         </div>
 
         {filteredProjects.length === 0 && (
-          <div className='text-center text-gray-400 mt-8'>No projects found for this category.</div>
+          <div className='text-center text-gray-400 mt-8'>Không tìm thấy dự án nào cho danh mục này.</div>
         )}
       </div>
     </section>
