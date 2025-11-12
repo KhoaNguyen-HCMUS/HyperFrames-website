@@ -3,13 +3,115 @@
     "title": "CAMERA",
     "devices": [
       {
-        "id": "HFsC001",
-        "name": "Sony Alpha 7C II (A7C II)",
-        "price": "550.000 VNĐ",
+        "id": "HFsC004",
+        "name": "Sony Alpha A6300 kit 16-50mm",
+        "price": "250.000 VNĐ",
         "duration": "1 ngày",
-        "features": ["Cảm biến Full-frame 33MP", "Quay video 4K 60p", "Chống rung 5 trục IBIS", "Kèm pin + sạc"],
-        "image": "https://cdn.vjshop.vn/may-anh/mirrorless/sony/sony-alpha-7c-ii/sony-alpha-7c-ii.jpg"
+        "features": ["Cảm biến APS-C", "Quay video 4K", "Kèm kit lens 16-50mm", "Kèm pin + sạc"],
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/297/199/products/255661114-4741294879235512-495993967466155981-n.jpg?v=1636715139913"
       },
+
+      {
+        "id": "HFsC008",
+        "name": "Cineline Sony FX3",
+        "price": "1.000.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Full-frame, màu điện ảnh S-Cinetone",
+          "Tối ưu handheld, dựng gimbal cực gọn",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://www.sony.com.vn/image/2f3120b61d3cfbe9abcfc8ca42e9212f?fmt=png-alpha&wid=1578&hei=1050&bgcolor=F6F9FF"
+      },
+      {
+        "id": "HFsC009",
+        "name": "Cineline Sony FX30",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Super 35, màu điện ảnh S-Cinetone",
+          "Nhẹ gọn, hợp quay social & travel",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2022/12/img-1664368534_1729317.jpeg"
+      },
+      {
+        "id": "HFsC010",
+        "name": "Sony Alpha 7 mark IV (a7iv)",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Full-frame 33MP, 4K 60p, dynamic cao",
+          "Linh hoạt quay phim & chụp ảnh",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://mayanh9x.com/image/cache/catalog/san-pham/mayanh-sony/sony-alpha-a7-iv/Sony-Alpha-a7-IV-fulframe-600x315.jpg"
+      },
+      {
+        "id": "HFsC011",
+        "name": "Sony Alpha 7 mark III (a7iii)",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Full-frame, lowlight tốt, ổn định cao",
+          "Phù hợp phỏng vấn, MV, sự kiện",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/02_mobile-4?$productIntroPlatemobile$&fmt=png-alpha&wid=1578&hei=1050&bgcolor=F6F9FF"
+      },
+      {
+        "id": "HFsC012",
+        "name": "Sony Alpha 7C mark II (a7Cii)",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Full-frame, nhỏ gọn, S-Cinetone",
+          "Dễ setup, tiện travel & vlog",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://dienmaytructuyen.vn/wp-content/uploads/2023/09/7CM2-1.png"
+      },
+      {
+        "id": "HFsC013",
+        "name": "Sony Alpha 7C",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Nhẹ nhất dòng full-frame Alpha",
+          "Tối ưu cầm tay, quay linh hoạt",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/og-5?$S7Product$&fmt=png-alpha&wid=1578&hei=1050&bgcolor=F6F9FF"
+      },
+      {
+        "id": "HFsC014",
+        "name": "Sony Alpha 7R mark 3 (a7Riii)",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Cảm biến Fullframe 42MP",
+          "Phù hợp chụp key visual & MV",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://www.sony-asia.com/image/f26f4cdabcfe7b25a7cddd1a5483ed3d?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9"
+      },
+      {
+        "id": "HFsC015",
+        "name": "Sony Alpha 6400 kit 16-50mm",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Crop sensor, autofocus nhanh, 4K",
+          "Dành cho content creator & vlog",
+          "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
+        ],
+        "image": "https://pos.nvncdn.com/91002e-15402/ps/20250713_6oOOmCwXeX.jpeg?v=1752377835"
+      }
+    ]
+  },
+  "lens": {
+    "title": "ỐNG KÍNH",
+    "devices": [
       {
         "id": "HFsC002",
         "name": "Tamron 28-75mm f/2.8 Di III VXD G2 For Sony E",
@@ -18,6 +120,7 @@
         "features": ["Khẩu độ f/2.8", "Chống rung VXD", "Kèm hood + filter UV"],
         "image": "https://bizweb.dktcdn.net/100/369/815/products/tamron-28-75-f2-8-di-iii-vxd-g2-model-a063-1400x875-jpeg-1438a002-8fde-42e2-9278-68efc974e32c-ac351d2f-a72d-40fc-9e1e-1ffc087118cc.jpg?v=1700822735477"
       },
+
       {
         "id": "HFsC003",
         "name": "Combo Super Takuma Cine mod (35,105)",
@@ -25,14 +128,6 @@
         "duration": "1 ngày",
         "features": ["Bộ 2 ống kính vintage", "Độ lại cho quay phim", "Kèm hood + UV"],
         "image": "https://freight.cargo.site/w/1200/i/2b67aba10d16b3de2a03fb1da2d3271182e047356b5ebe80577349e48841cd16/Lens-Main-Image_1.jpg"
-      },
-      {
-        "id": "HFsC004",
-        "name": "Sony Alpha A6300 kit 16-50mm",
-        "price": "250.000 VNĐ",
-        "duration": "1 ngày",
-        "features": ["Cảm biến APS-C", "Quay video 4K", "Kèm kit lens 16-50mm", "Kèm pin + sạc"],
-        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/297/199/products/255661114-4741294879235512-495993967466155981-n.jpg?v=1636715139913"
       },
       {
         "id": "HFsC005",
@@ -50,6 +145,7 @@
         "features": ["Khẩu độ f/2.8", "Ống kính góc rộng", "Hệ Zeiss T*", "Kèm hood + UV"],
         "image": "https://www.sony.com.vn/image/514690ec00fff404a14ae0ace8a41f31?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9"
       },
+
       {
         "id": "HFsC007",
         "name": "SONY FE 85mm F/1.8 (SEL85F18)",
@@ -57,6 +153,166 @@
         "duration": "1 ngày",
         "features": ["Khẩu độ f/1.8", "Ống kính chân dung", "Chống rung OSS", "Kèm hood + UV"],
         "image": "https://www.sony.com.vn/image/c0f04316bc61cb587fb6c7606e564c52?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9"
+      },
+      {
+        "id": "HFsLE001",
+        "name": "SMC Takuma Cine mod Lens Set",
+        "price": "1.500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tiêu cự (20, 24, 35, 50 marco, 55, 85, 105)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE002",
+        "name": "Canon FD Cine mod Lens Set",
+        "price": "1.000.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tiêu cự (24, 35, 55, 85)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE003",
+        "name": "Leica Lens Set",
+        "price": "1.500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tiêu cự (24, 35, 50, 90, 180)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE004",
+        "name": "Sony FE 14mm F/1.8 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Nắp trước, nắp sau, stepring up to 82", "Filter UV K&F Nano X"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE005",
+        "name": "Sony FE 24mm F/1.4 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Wide prime, độ nét cao", "Kèm hood + cap"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE006",
+        "name": "Sony FE 35mm F/1.4 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Prime 35mm cho video & foto", "Kèm hood + cap"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE007",
+        "name": "Sony FE 50mm F/1.2 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Prime 50mm khẩu lớn f/1.2", "Kèm hood + cap"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE008",
+        "name": "Sony FE 85mm F/1.4 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Ống kính chân dung 85mm", "Kèm hood + cap"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE009",
+        "name": "Sony FE 24-70 f/2.8 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Zoom tiêu chuẩn cho quay & chụp", "Khẩu f/2.8 cố định"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE010",
+        "name": "Sony FE 24-70 f/2.8 GM mark 2",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Phiên bản mark 2, cải tiến quang học", "Khẩu f/2.8 cố định"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE011",
+        "name": "Sony FE 16-35mm PZ f/4",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Power zoom, thích hợp quay run-and-gun", "Khẩu f/4 ổn định"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE012",
+        "name": "Sony FE 16-35mm f/2.8 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Zoom góc rộng chuyên nghiệp", "Khẩu f/2.8 cho low-light"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE013",
+        "name": "Sony FE 16-35mm f/2.8 GM mark 2",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Phiên bản mark 2, quang học nâng cấp", "Khẩu f/2.8"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE014",
+        "name": "Sony FE 70-200mm f/2.8 GM",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tele zoom chuyên nghiệp", "Khẩu f/2.8"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE015",
+        "name": "Sony FE 70-200mm f/2.8 GM mark 2",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Phiên bản mark 2, cải thiện AF và quang học", "Khẩu f/2.8"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE016",
+        "name": "Sony FE 200-600mm f/5.6-6.3 G",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Tele super-tele cho wildlife & sports", "Khả năng reach cao"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE017",
+        "name": "Tamron FE 17-28mm f/2.8",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Wide zoom, f/2.8", "Dành cho landscape & architecture"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE018",
+        "name": "Tamron FE 17-70mm f/2.8",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["All-in-one zoom, f/2.8", "Tiện cho travel & content"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE019",
+        "name": "Sony SEL 18-105mm f/4 PZ",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Power zoom, ổn định cho video", "Dải tiêu cự linh hoạt"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsLE020",
+        "name": "Sony SEL 10-20mm f/4 PZ",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Ultra-wide power zoom", "Thích hợp vlog & nội thất"],
+        "image": "/placeholder-image.jpg"
       }
     ]
   },
@@ -131,6 +387,110 @@
         "duration": "1 ngày",
         "features": ["Micro dynamic", "Kết nối USB-C", "Kèm giá đỡ", "Kèm windshield"],
         "image": "https://www.newsshooter.com/wp-content/uploads/2023/08/Ulanzi-U-Mic-AM18-Wireless-Pro-Microphone_04-740x493.jpg"
+      },
+      {
+        "id": "HFsS005",
+        "name": "DJI Mic 2",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 RX, 2 TX, case sạc", "2 mic lavalier", "Cáp 3.5 - 3.5", "Tai nghe", "Hộp"],
+        "image": "https://cdn.vjshop.vn/thiet-bi-lam-video/microphone/dji-mic-2/dji-mic-2-06-500x500.jpg"
+      },
+      {
+        "id": "HFsS006",
+        "name": "DJI Mic 3",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 RX, 2 TX, case sạc", "Cáp 3.5 - 3.5", "Tai nghe", "Hộp"],
+        "image": "https://cdn.vjshop.vn/thiet-bi-lam-video/microphone/dji-mic-3/2tx-va-1-tx-va-charging-case/dji-mic-3-2tx-1rx-charging-case-05-500x500.jpg"
+      },
+      {
+        "id": "HFsS007",
+        "name": "Rode Wireless Pro full set",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 RX, 2 TX", "2 mic lavalier", "Cáp 3.5 - 3.5", "Tai nghe", "Hộp"],
+        "image": "https://filmgearcanada.com/cdn/shop/files/61838-IhcbL._AC_SL1000_900x.jpg?v=1743025015"
+      },
+      {
+        "id": "HFsS008",
+        "name": "Rode NTG4",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro shotgun chuyên nghiệp", "Phù hợp quay phim và broadcast"],
+        "image": "https://product.hstatic.net/200000863343/product/rode-ntg4-chinh-hang-danh-cho-may-quay-phim-micro-phong-van-rode-kky5y_af5af7d2e4b249599180a298c3562658.jpg"
+      },
+      {
+        "id": "HFsS009",
+        "name": "Rode Micro",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro nhỏ gọn dễ sử dụng", "Phù hợp làm vlog và thu âm nhanh"],
+        "image": "/placeholder-image.jpg"
+      },
+      {
+        "id": "HFsS010",
+        "name": "Comica VM10",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro shotgun nhỏ gọn", "Kèm windshield", "Shock mount"],
+        "image": "https://shopnhiepanh.vn/assets/images/product/microphone-comica-cvm-vm10-pro-smartphone.jpg"
+      },
+      {
+        "id": "HFsS011",
+        "name": "Comica VM30",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro không dây/shotgun nâng cao", "Phù hợp video chuyên nghiệp"],
+        "image": "https://tokyocamera.vn/wp-content/uploads/2023/12/Comica-Audio-VM30-Wireless-Shotgun-Microphone-800x800-1.jpg"
+      },
+      {
+        "id": "HFsS012",
+        "name": "Boom mic 3m",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Cần boom 3m", "Dùng cùng shotgun mic cho set quay"],
+        "image": "https://digi4u.net/media/product/2470791_threequarterboomhandle_clipped_3b06f307b564a55fe0bee4e374609763.jpg"
+      },
+      {
+        "id": "HFsS013",
+        "name": "Shure MV7x",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Micro dynamic/USB/XLR cho podcast & streaming", "Kèm giá đỡ"],
+        "image": "https://tng.com.vn/image/upload/catalog/product/Shure/micro-co-day/Motiv/MV7X/Hinhsp/shure-mv7x-1200x900.jpg"
+      },
+      {
+        "id": "HFsS014",
+        "name": "Headphone full size ATH M40x",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Headphone kiểm âm full-size", "Thương hiệu Audio-Technica"],
+        "image": "https://m.media-amazon.com/images/I/612QNnTYz0L.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg"
+      },
+      {
+        "id": "HFsS015",
+        "name": "Zoom H1n",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Field recorder nhỏ gọn", "Thu âm stereo chất lượng cao"],
+        "image": "https://tainghe.com.vn/media/product/1686-may-ghi-am-zoom-h1n-chinh-hang--tainghe-com-vn-0.jpg"
+      },
+      {
+        "id": "HFsS016",
+        "name": "Zoom H6 full set",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Field recorder đa kênh (H6)", "Kèm capsule, cáp và phụ kiện"],
+        "image": "https://d1zh44oijxky14.cloudfront.net/gopixelr.com/2020/11/Untitled-design-2020-11-27T162047.471-300x300.jpg"
+      },
+      {
+        "id": "HFsS017",
+        "name": "Hollyland Lark Max Full Set",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 RX, 2 TX", "2 mic lavalier", "Cáp 3.5 - 3.5", "Tai nghe", "Hộp"],
+        "image": "https://ae01.alicdn.com/kf/S3aa132e4cd004f5895d178a715220b971.jpg"
       }
     ]
   },
