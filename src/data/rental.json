@@ -160,7 +160,7 @@
         "price": "1.500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (20, 24, 35, 50 marco, 55, 85, 105)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE002",
@@ -168,7 +168,7 @@
         "price": "1.000.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (24, 35, 55, 85)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE003",
@@ -176,7 +176,7 @@
         "price": "1.500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (24, 35, 50, 90, 180)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE004",
@@ -184,7 +184,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Nắp trước, nắp sau, stepring up to 82", "Filter UV K&F Nano X"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE005",
@@ -192,7 +192,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Wide prime, độ nét cao", "Kèm hood + cap"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE006",
@@ -200,7 +200,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Prime 35mm cho video & foto", "Kèm hood + cap"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE007",
@@ -208,7 +208,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Prime 50mm khẩu lớn f/1.2", "Kèm hood + cap"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE008",
@@ -216,7 +216,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Ống kính chân dung 85mm", "Kèm hood + cap"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE009",
@@ -224,7 +224,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Zoom tiêu chuẩn cho quay & chụp", "Khẩu f/2.8 cố định"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE010",
@@ -232,7 +232,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, cải tiến quang học", "Khẩu f/2.8 cố định"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE011",
@@ -240,7 +240,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Power zoom, thích hợp quay run-and-gun", "Khẩu f/4 ổn định"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE012",
@@ -248,7 +248,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Zoom góc rộng chuyên nghiệp", "Khẩu f/2.8 cho low-light"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE013",
@@ -256,7 +256,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, quang học nâng cấp", "Khẩu f/2.8"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE014",
@@ -264,7 +264,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tele zoom chuyên nghiệp", "Khẩu f/2.8"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE015",
@@ -272,7 +272,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, cải thiện AF và quang học", "Khẩu f/2.8"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE016",
@@ -280,7 +280,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tele super-tele cho wildlife & sports", "Khả năng reach cao"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE017",
@@ -288,7 +288,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Wide zoom, f/2.8", "Dành cho landscape & architecture"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE018",
@@ -296,7 +296,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["All-in-one zoom, f/2.8", "Tiện cho travel & content"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE019",
@@ -304,7 +304,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Power zoom, ổn định cho video", "Dải tiêu cự linh hoạt"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsLE020",
@@ -312,7 +312,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Ultra-wide power zoom", "Thích hợp vlog & nội thất"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       }
     ]
   },
@@ -350,6 +350,166 @@
         "duration": "1 ngày",
         "features": ["Softbox dạng bóng", "Khuếch tán ánh sáng", "Kèm đui đèn"],
         "image": "https://phukienmayanhdslr.com/image/cache/catalog/24-tan-sang-hat-sang/24165/2416501-softbox-cau-china-ball-lightupfoto-65cm-750x410.webp"
+      },
+      {
+        "id": "HFsL006",
+        "name": "Aputure Amaran 60XS",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 65cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL007",
+        "name": "Aputure Amaran 200XS",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 65cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL008",
+        "name": "Aputure Amaran F22c",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL009",
+        "name": "Aputure Storm 80C",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL010",
+        "name": "Aputure Light Storm 300X",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL011",
+        "name": "Aputure Storm 400X",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL012",
+        "name": "Aputure Light Storm 600X",
+        "price": "600.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL013",
+        "name": "Aputure Light Storm 1200X",
+        "price": "1.000.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL014",
+        "name": "Aputure Amaran 300C",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL015",
+        "name": "Aputure Amaran Pano 60c",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL016",
+        "name": "Aputure Amaran Pano 120c",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL017",
+        "name": "Aputure Nova P600C",
+        "price": "800.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL018",
+        "name": "Aputure B7c",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL019",
+        "name": "Aputure Amaran T4c",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL020",
+        "name": "Aputure Amaran T2c",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL021",
+        "name": "Ambitful Tube 1ft",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL022",
+        "name": "Godox DP600iii",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL023",
+        "name": "Godox AD600",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Kèm trigger"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL024",
+        "name": "Godox V860ii",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Dành cho Canon, Sony"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsL025",
+        "name": "Godox V860iii",
+        "price": "120.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Dành cho Canon, Sony"],
+        "image": "/black.jpg"
       }
     ]
   },
@@ -426,7 +586,7 @@
         "price": "50.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Micro nhỏ gọn dễ sử dụng", "Phù hợp làm vlog và thu âm nhanh"],
-        "image": "/placeholder-image.jpg"
+        "image": "/black.jpg"
       },
       {
         "id": "HFsS010",
@@ -544,6 +704,170 @@
         "duration": "1 ngày",
         "features": ["Chiều cao tối đa 170cm", "Chịu tải 8kg", "Kèm túi đựng", "Fluid head"],
         "image": "https://bizweb.dktcdn.net/100/321/653/products/benro-video-tripod-kh25p-8.jpg?v=1623826285077"
+      },
+      {
+        "id": "HFsA007",
+        "name": "Trigger X2T",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Dành cho Canon, Sony, Nikon"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA008",
+        "name": "Hollyland Solidcom C1 Pro",
+        "price": "Thay đổi theo số lượng tai",
+        "duration": "1 ngày",
+        "features": ["Liên kết tối đa 8 tai"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA009",
+        "name": "Hollyland Solidcom SE Pro",
+        "price": "Thay đổi theo số lượng tai",
+        "duration": "1 ngày",
+        "features": ["Liên kết tối đa 11 tai", "Có chống ồn chủ động ANC"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA010",
+        "name": "Bộ đàm Xiaomi",
+        "price": "50.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Bao gồm Tai nghe + mic và sạc"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA011",
+        "name": "Máy khói đốt 1500W",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA012",
+        "name": "Máy tạo khói Smoke B Fog",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA013",
+        "name": "Accsoon Cine View SE",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 TX, 1 RX, 8 antena", "2 magic arm", "Pin NPF970 x4", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x3"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA014",
+        "name": "Accsoon Cine View Master 4k",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 TX, 1 RX, 12 antena", "2 magic arm", "Pin NPF970 x4", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x3"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA015",
+        "name": "Accsoon Cine View Nano",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["1 TX", "1 magic arm", "Pin NPF970 x2", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x2"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA016",
+        "name": "Gimbal DJI RS2 Pro",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA017",
+        "name": "Gimbal DJI RS3 Pro",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA018",
+        "name": "Gimbal DJI RS4 Pro",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA019",
+        "name": "Kit for DJI Pro Combo",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["DJI RavenEye Image Transmitter Kit", "The RS Focus Motor Kit"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA020",
+        "name": "5,2\" Portkey PT6",
+        "price": "150.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["2 Cáp HDMI - HDMI", "1 magic arm / 1 monitor cold shoe mount", "2 pin F970 và sạc"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA021",
+        "name": "Atomos Ninja V+",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "2 Cáp HDMI - HDMI 4K",
+          "1 magic arm / 1 monitor cold shoe mount",
+          "1 cáp D Tap - DC",
+          "1 SSD 500GB và Sata Redear"
+        ],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA022",
+        "name": "Atomos Shogun Ultra",
+        "price": "500.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "2 Cáp HDMI - HDMI 4K",
+          "1 magic arm / 1 monitor cold shoe mount",
+          "2 pin V 98Wh",
+          "1 cáp D Tap - DC",
+          "1 sạc pin V cổng Dtap",
+          "1 SSD 500GB và SATA reader kit"
+        ],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA023",
+        "name": "Tilta/SmallRig Mini Mattebox clamp on",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA024",
+        "name": "Chân máy v12, v15, v18 Carbon",
+        "price": "200.000 - 400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Đầu dầu chén 100mm", "Chân baby (+100.000đ)"],
+        "image": "/black.jpg"
+      },
+      {
+        "id": "HFsA025",
+        "name": "Chân máy quay nhỏ",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Chân Benro/ Jieyang"],
+        "image": "/black.jpg"
       }
     ]
   }
