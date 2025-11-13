@@ -11,16 +11,8 @@ export default function Rental() {
     title: devices[key].title,
   }));
 
-  const scrollToContact = (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: 'smooth',
-    });
-  };
-
   return (
-    <section className=' bg-black '>
+    <section className=' bg-black min-h-screen pb-16'>
       <div className='relative h-[45vh] flex items-center justify-center overflow-hidden space-y-6 mb-10'>
         <AnimatedBackground />
         <div className='relative z-20 h-full flex flex-col items-center justify-center space-y-4 '>
@@ -70,13 +62,13 @@ export default function Rental() {
           ))}
         </div>
 
-        <div className='text-center mt-12'>
-          <button
-            onClick={scrollToContact}
-            className='bg-red-600 hover:bg-red-700 text-white py-2 px-6 rounded-full transition cursor-pointer'
+        <div className='text-center mt-12  mb-4'>
+          <a
+            href='https://docs.google.com/spreadsheets/u/4/d/e/2PACX-1vSjfuVx_Pbb54AvhP4jZG7E30ii0m98bTZWosjFjNP10MrD5qweTwppD3x5aSWR4ho-PkIP7jthwjFU/pubhtml#gid=0'
+            className='bg-red-600 hover:bg-red-700 text-white py-2 mb-4 px-6 rounded-full transition cursor-pointer'
           >
             Báo giá chi tiết tại đây!
-          </button>
+          </a>
         </div>
       </div>
     </section>
