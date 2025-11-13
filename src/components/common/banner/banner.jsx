@@ -8,7 +8,13 @@ export default function Banner() {
     setLoaded(true);
   }, []);
 
-  const posters = ['/banner/poster1.png', '/banner/poster2.png', '/banner/poster3.png', '/banner/poster4.png'];
+  const posters = [
+    '/banner/poster3.png',
+    '/banner/2.jpg',
+    '/banner/poster2.png',
+    '/banner/4.jpg',
+    '/banner/poster1.png',
+  ];
 
   return (
     <div
