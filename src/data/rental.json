@@ -3,15 +3,6 @@
     "title": "CAMERA",
     "devices": [
       {
-        "id": "HFsC004",
-        "name": "Sony Alpha A6300 kit 16-50mm",
-        "price": "250.000 VNĐ",
-        "duration": "1 ngày",
-        "features": ["Cảm biến APS-C", "Quay video 4K", "Kèm kit lens 16-50mm", "Kèm pin + sạc"],
-        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/297/199/products/255661114-4741294879235512-495993967466155981-n.jpg?v=1636715139913"
-      },
-
-      {
         "id": "HFsC008",
         "name": "Cineline Sony FX3",
         "price": "1.000.000 VNĐ",
@@ -106,11 +97,64 @@
           "Bao gồm 3 pin, sạc, 2 thẻ SD và đầu đọc"
         ],
         "image": "https://pos.nvncdn.com/91002e-15402/ps/20250713_6oOOmCwXeX.jpeg?v=1752377835"
+      },
+      {
+        "id": "HFsC004",
+        "name": "Sony Alpha A6300 kit 16-50mm",
+        "price": "250.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Cảm biến APS-C", "Quay video 4K", "Kèm kit lens 16-50mm", "Kèm pin + sạc"],
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/297/199/products/255661114-4741294879235512-495993967466155981-n.jpg?v=1636715139913"
+      },
+      {
+        "id": "HFsC016",
+        "name": "DJI Osmo Action 5",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [
+          "Body + Cage",
+          "Thẻ micro SD 128GB x1",
+          "3 pin, 1 cáp USB type C, 1 cốc sạc",
+          "1 sạc dự phòng 10.000mAh"
+        ],
+        "image": "https://media.foto-erhardt.de/images/product_images/original_images/024/dji-osmo-action-5-pro-adventure-combo-174314517102410304.jpg"
+      },
+      {
+        "id": "HFsC017",
+        "name": "Osmo Pocket 3 Creator bundle",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Body", "Thẻ micro SD 128GB x1"],
+        "image": "https://product.hstatic.net/200000782117/product/pocket_3_creator_combo_d699cc4c5f194e3cb83187e82dace15d_master.png"
+      },
+      {
+        "id": "HFsC018",
+        "name": "Insta One X5",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Gậy tàng hình", "Thẻ micro SD 128GB x1", "1 cáp USB type C, 1 cốc sạc"],
+        "image": "https://assets.cathayphoto.com.sg/product/_1200x630_crop_center-center_82_none/Essentials-Bundle.jpg?mtime=1746679246"
+      },
+      {
+        "id": "HFsC019",
+        "name": "DJI Osmo 360",
+        "price": "400.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "https://hnsgsfp.imgix.net/9/images/detailed/137/DJI-Osmo-360-Adventure-Combo-7_3vrh-mj.PNG?fit=fill&bg=0FFF&w=1536&h=901&auto=format,compress"
+      },
+      {
+        "id": "HFsC020",
+        "name": "DJI Osmo Nano",
+        "price": "300.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "https://techgadget.gr/wp-content/uploads/2025/09/508fb2af0121db1eebb0e6d117626957@ultra.webp"
       }
     ]
   },
   "lens": {
-    "title": "ỐNG KÍNH",
+    "title": "LENS & FILTERS",
     "devices": [
       {
         "id": "HFsC002",
@@ -160,7 +204,7 @@
         "price": "1.500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (20, 24, 35, 50 marco, 55, 85, 105)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/black.jpg"
+        "image": "https://photos.smugmug.com/Gallery-Blog/Cinema-Modification-Cine-mod-lens-sets/i-kSdc8rP/0/KqwGxHj3952WC6gdjNKQ3LftQSVb6247GV3Wh7KhB/XL/IMG_0312-XL.jpg"
       },
       {
         "id": "HFsLE002",
@@ -168,7 +212,7 @@
         "price": "1.000.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (24, 35, 55, 85)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/black.jpg"
+        "image": "https://images.squarespace-cdn.com/content/v1/65c1fc3ccd597c2dbc13a230/1707297667457-U6CRJVAWFT0GPJOBT13G/FD.jpg"
       },
       {
         "id": "HFsLE003",
@@ -176,7 +220,7 @@
         "price": "1.500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tiêu cự (24, 35, 50, 90, 180)", "Đã Cine Mod cho quay phim", "Kèm ngàm"],
-        "image": "/black.jpg"
+        "image": "https://i0.wp.com/thecinelens.com/wp-content/uploads/2011/08/img0383.jpg?resize=640%2C360"
       },
       {
         "id": "HFsLE004",
@@ -184,7 +228,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Nắp trước, nắp sau, stepring up to 82", "Filter UV K&F Nano X"],
-        "image": "/black.jpg"
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/m-product-intro-plate-2?$productIntroPlatemobile$&fmt=png-alpha"
       },
       {
         "id": "HFsLE005",
@@ -192,7 +236,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Wide prime, độ nét cao", "Kèm hood + cap"],
-        "image": "/black.jpg"
+        "image": "https://media.the-digital-picture.com/Images/Standard/Lenses/Review/Hood/Retracted-MFD/Sony-FE-24mm-f-1.4-GM-Lens.webp"
       },
       {
         "id": "HFsLE006",
@@ -200,7 +244,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Prime 35mm cho video & foto", "Kèm hood + cap"],
-        "image": "/black.jpg"
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/SEL35F14GM_Product_Intro_1_M-1?$productIntroPlatemobile$&fmt=png-alpha"
       },
       {
         "id": "HFsLE007",
@@ -208,7 +252,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Prime 50mm khẩu lớn f/1.2", "Kèm hood + cap"],
-        "image": "/black.jpg"
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/m-plate-2?$productIntroPlatemobile$&fmt=png-alpha"
       },
       {
         "id": "HFsLE008",
@@ -216,7 +260,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Ống kính chân dung 85mm", "Kèm hood + cap"],
-        "image": "/black.jpg"
+        "image": "https://nguyentristore.com/upload/product/anh-chup-man-hinh-2568-01-19-luc-161228-3689.png"
       },
       {
         "id": "HFsLE009",
@@ -224,7 +268,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Zoom tiêu chuẩn cho quay & chụp", "Khẩu f/2.8 cố định"],
-        "image": "/black.jpg"
+        "image": "https://mayanh24h.com/image/catalog/san-pham/ong-kinh-may-anh/sony/sony-fe-24-70-f2-8-gm/sony-24-70-2-8-gm-4.jpg"
       },
       {
         "id": "HFsLE010",
@@ -232,7 +276,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, cải tiến quang học", "Khẩu f/2.8 cố định"],
-        "image": "/black.jpg"
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/Primary-image?$S7Product$&fmt=png-alpha"
       },
       {
         "id": "HFsLE011",
@@ -240,7 +284,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Power zoom, thích hợp quay run-and-gun", "Khẩu f/4 ổn định"],
-        "image": "/black.jpg"
+        "image": "https://cdn.vjshop.vn/ong-kinh/mirrorless/sony/sony-fe-pz-16-35mm-f4-g/anh-mo-ta/sony-fe-pz-16-35mm-f4-g-14.jpg"
       },
       {
         "id": "HFsLE012",
@@ -248,7 +292,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Zoom góc rộng chuyên nghiệp", "Khẩu f/2.8 cho low-light"],
-        "image": "/black.jpg"
+        "image": "https://www.sony.com.vn/image/df3b268d9c02245fe37386ba413070a7?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
       },
       {
         "id": "HFsLE013",
@@ -256,7 +300,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, quang học nâng cấp", "Khẩu f/2.8"],
-        "image": "/black.jpg"
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/sp_product_01?$productIntroPlatemobile$&fmt=png-alpha"
       },
       {
         "id": "HFsLE014",
@@ -264,7 +308,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tele zoom chuyên nghiệp", "Khẩu f/2.8"],
-        "image": "/black.jpg"
+        "image": "https://www.sony.com.vn/image/d2a57c9585b7f853c33af0189beb3ee3?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
       },
       {
         "id": "HFsLE015",
@@ -272,7 +316,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Phiên bản mark 2, cải thiện AF và quang học", "Khẩu f/2.8"],
-        "image": "/black.jpg"
+        "image": "https://www.sony.com.vn/image/d2a57c9585b7f853c33af0189beb3ee3?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
       },
       {
         "id": "HFsLE016",
@@ -280,7 +324,7 @@
         "price": "500.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Tele super-tele cho wildlife & sports", "Khả năng reach cao"],
-        "image": "/black.jpg"
+        "image": "https://www.sony.com.vn/image/7b6bff03feeb9c8ff1b385770329b2a8?fmt=png-alpha&wid=1578&hei=1050&bgcolor=F6F9FF"
       },
       {
         "id": "HFsLE017",
@@ -288,7 +332,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Wide zoom, f/2.8", "Dành cho landscape & architecture"],
-        "image": "/black.jpg"
+        "image": "https://s3.cloud.cmctelecom.vn/tinhte2/2019/06/4701847_sideview.jpg"
       },
       {
         "id": "HFsLE018",
@@ -296,7 +340,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["All-in-one zoom, f/2.8", "Tiện cho travel & content"],
-        "image": "/black.jpg"
+        "image": "https://zshop.vn/images/thumbnails/814/600/detailed/56/Tamron_17-70mm_iii__1_.jpg"
       },
       {
         "id": "HFsLE019",
@@ -304,7 +348,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Power zoom, ổn định cho video", "Dải tiêu cự linh hoạt"],
-        "image": "/black.jpg"
+        "image": "https://www.sony.com.vn/image/ec59e1b6e12da4d516847d899060c64c?fmt=png-alpha&wid=1578&hei=1050&bgcolor=F6F9FF"
       },
       {
         "id": "HFsLE020",
@@ -312,6 +356,39 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Ultra-wide power zoom", "Thích hợp vlog & nội thất"],
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/m-Product-Intro-Plate-6?$productIntroPlatemobile$&fmt=png-alpha"
+      },
+
+      {
+        "id": "HFsA027",
+        "name": "NiSi True-Color 1-5 stops - 82mm",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "https://tokyocamera.vn/wp-content/uploads/2025/05/NiSi-True-Color-Pro-Nano-CPL-82mm-3-copy.jpg"
+      },
+      {
+        "id": "HFsA028",
+        "name": "CPL K&F Nano X - 82mm",
+        "price": "100.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
+        "image": "https://m.media-amazon.com/images/I/71Q3K3EFN2L._AC_UF350,350_QL80_.jpg"
+      },
+      {
+        "id": "HFsA029",
+        "name": "K&F Black Mist Nano X set: 1/8, 1/4, 1/2 - 82mm",
+        "price": "200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": ["Lẻ một filter giá thuê 100.000 VNĐ"],
+        "image": "https://store.lnwgadget.com/media/wysiwyg/Products/Lens/ACC/KF/Nano-X-Magnetic-14-BlackMist-Diffusion/01.jpg"
+      },
+      {
+        "id": "HFsLE021",
+        "name": "Ngàm chuyển các loại",
+        "price": "50.000 - 200.000 VNĐ",
+        "duration": "1 ngày",
+        "features": [],
         "image": "/black.jpg"
       }
     ]
@@ -357,7 +434,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 65cm"],
-        "image": "/black.jpg"
+        "image": "https://eradigital.com.vn/wp-content/uploads/2023/03/z7024637040304_356dc327445cf0ca9c2e717d936202bb.jpg"
       },
       {
         "id": "HFsL007",
@@ -365,7 +442,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 65cm"],
-        "image": "/black.jpg"
+        "image": "https://nguyentristore.com/watermark/product/500x500x1/upload/product/5666d412-3262-4b6f-be8b-8a516e8dfed6-6334.jpeg"
       },
       {
         "id": "HFsL008",
@@ -373,7 +450,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://martcom.eu/assets/media/brands/aputure/F22C-EU_APUTURE_Luce-LED-Amarant-F22c-flessibile-200W-RGBWW-per-fotografi-e-videomaker_04.jpg"
       },
       {
         "id": "HFsL009",
@@ -381,7 +458,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
-        "image": "/black.jpg"
+        "image": "https://eradigital.com.vn/wp-content/uploads/2024/11/z7020356542856_6b779121773c9d7be102d7c481fece99.jpg"
       },
       {
         "id": "HFsL010",
@@ -389,7 +466,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
-        "image": "/black.jpg"
+        "image": "https://cdn.shopify.com/s/files/1/1343/1935/files/LS300x-_1.png?v=1708329336"
       },
       {
         "id": "HFsL011",
@@ -397,7 +474,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
-        "image": "/black.jpg"
+        "image": "https://www.newsshooter.com/wp-content/uploads/2025/07/Screenshot-2025-07-20-at-10.00.15-740x387.jpg"
       },
       {
         "id": "HFsL012",
@@ -405,7 +482,7 @@
         "price": "600.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
-        "image": "/black.jpg"
+        "image": "https://cdn.shopify.com/s/files/1/1343/1935/files/LS600d-_1.png?v=1708329257"
       },
       {
         "id": "HFsL013",
@@ -413,7 +490,7 @@
         "price": "1.000.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 120cm"],
-        "image": "/black.jpg"
+        "image": "https://digi4u.net/media/product/2472117_1725882518_img_2328728.jpg"
       },
       {
         "id": "HFsL014",
@@ -421,7 +498,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox 90cm"],
-        "image": "/black.jpg"
+        "image": "https://bizweb.dktcdn.net/100/507/659/files/c9e83f15-eadd-4852-8edb-f614c71e1413.jpg?v=1709887485507"
       },
       {
         "id": "HFsL015",
@@ -429,7 +506,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
-        "image": "/black.jpg"
+        "image": "https://eradigital.com.vn/wp-content/uploads/2025/04/z7025481753157_bb6c8f3bb97c62226026de97eb4fed07.jpg"
       },
       {
         "id": "HFsL016",
@@ -437,7 +514,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": ["RGB, 2500K-6500K", "Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
-        "image": "/black.jpg"
+        "image": "https://hlstudio.vn/wp-content/uploads/2025/06/den-led-amaran-pano-120c-kit-charcoal-cct-2300k-10000k-01.jpg"
       },
       {
         "id": "HFsL017",
@@ -445,7 +522,7 @@
         "price": "800.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đèn, adapter, dây nguồn", "Light stand / chân đèn 750", "Softbox"],
-        "image": "/black.jpg"
+        "image": "https://pos.nvncdn.com/91002e-15402/ps/20230202_auJku8G0AbWTO7d0.jpeg?v=1675320294"
       },
       {
         "id": "HFsL018",
@@ -453,7 +530,7 @@
         "price": "100.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://cdn.sanity.io/images/sv8q1vrl/production/9cf9e5b0a52abbd1b5a519c34a918688dfeeb31a-1000x546.webp?auto=format&q=90&w=1000"
       },
       {
         "id": "HFsL019",
@@ -461,7 +538,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://aputurebrasil.com.br/wp-content/uploads/2023/02/15139138572_3579-600x416.jpg"
       },
       {
         "id": "HFsL020",
@@ -469,7 +546,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://m.media-amazon.com/images/I/61tiN0Y5teL.jpg"
       },
       {
         "id": "HFsL021",
@@ -477,7 +554,7 @@
         "price": "50.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://manuals.plus/wp-content/uploads/2022/11/AMBITFUL-A2-RGB-Tube-Light-Featured-Image.png"
       },
       {
         "id": "HFsL022",
@@ -485,7 +562,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/451/962/products/a1-76f7924e-4cd5-4858-8a2c-7b5528698f65.jpg?v=1652411001947"
       },
       {
         "id": "HFsL023",
@@ -493,7 +570,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Kèm trigger"],
-        "image": "/black.jpg"
+        "image": "https://mayanh24h.com/image/catalog/san-pham/phu-kien-may-anh/den-flash-led/godox-ad600bm/flash-godox-wistro-ad600bm.jpg"
       },
       {
         "id": "HFsL024",
@@ -501,7 +578,7 @@
         "price": "100.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Dành cho Canon, Sony"],
-        "image": "/black.jpg"
+        "image": "https://mayanh9x.com/image/cache/catalog/san-pham/phu-kien/godox/den-flash-godox/den-flash-godox-v860ii-n-nikon/den-flash-godox-v860ii-kem-pin-600x315.jpg"
       },
       {
         "id": "HFsL025",
@@ -509,7 +586,7 @@
         "price": "120.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Dành cho Canon, Sony"],
-        "image": "/black.jpg"
+        "image": "https://mayanh9x.com/image/cache/catalog/san-pham/phu-kien/godox/den-flash-godox/den-flash-godox-v860ii-n-nikon/den-flash-godox-v860ii-kem-pin-600x315.jpg"
       }
     ]
   },
@@ -586,7 +663,7 @@
         "price": "50.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Micro nhỏ gọn dễ sử dụng", "Phù hợp làm vlog và thu âm nhanh"],
-        "image": "/black.jpg"
+        "image": "https://image.anhducdigital.vn/pro-video/phu-kien-quay-phim/microphone/rode-videomicro/microphone-rode-videomicro-2.jpg"
       },
       {
         "id": "HFsS010",
@@ -675,11 +752,11 @@
       },
       {
         "id": "HFsA003",
-        "name": "Filter K&F concept Black Mist 1/4 Nano X",
-        "price": "100.000 VNĐ",
+        "name": "K&F Black Mist Nano X set (1/8,1/4,1/2 - 82mm)",
+        "price": "200.000 VNĐ",
         "duration": "1 ngày",
-        "features": ["Hiệu ứng mờ nhẹ", "Giảm độ tương phản", "Kèm hộp đựng"],
-        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/507/659/products/sku-1717v1-8-1200x1200-37ab1db6-80ca-4cbd-9ca8-cd0de391680e-f009244f-ee0f-485a-9667-11bd0725be08.jpg?v=1724486779403"
+        "features": ["Kèm hộp đựng", "Hiệu ứng mờ nhẹ", "Giảm độ tương phản", "Lẻ một filter giá thuê 100.000 VNĐ"],
+        "image": "https://store.lnwgadget.com/media/wysiwyg/Products/Lens/ACC/KF/Nano-X-Magnetic-14-BlackMist-Diffusion/01.jpg"
       },
       {
         "id": "HFsA004",
@@ -711,7 +788,7 @@
         "price": "50.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Dành cho Canon, Sony, Nikon"],
-        "image": "/black.jpg"
+        "image": "https://product.hstatic.net/1000340975/product/triger-godox-x2t-1_e8e820ba57d34016b57542549e9b6376.jpg"
       },
       {
         "id": "HFsA008",
@@ -719,7 +796,7 @@
         "price": "Thay đổi theo số lượng tai",
         "duration": "1 ngày",
         "features": ["Liên kết tối đa 8 tai"],
-        "image": "/black.jpg"
+        "image": "https://www.bhphotovideo.com/images/fb/hollyland_hollyland_solidcom_c1_pro_8s_1751337.jpg"
       },
       {
         "id": "HFsA009",
@@ -727,7 +804,7 @@
         "price": "Thay đổi theo số lượng tai",
         "duration": "1 ngày",
         "features": ["Liên kết tối đa 11 tai", "Có chống ồn chủ động ANC"],
-        "image": "/black.jpg"
+        "image": "https://www.bhphotovideo.com/images/fb/hollyland_hl_solidcom_se_pro_9s_solidcom_se_pro_9s_1870462.jpg"
       },
       {
         "id": "HFsA010",
@@ -735,7 +812,7 @@
         "price": "50.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Bao gồm Tai nghe + mic và sạc"],
-        "image": "/black.jpg"
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/375/502/products/bo-da-m-xiaomi-lite-walkie-talkie-4.jpg?v=1666342018347"
       },
       {
         "id": "HFsA011",
@@ -743,7 +820,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://densankhauhcm.com/wp-content/uploads/2017/12/efa2ed9d-774b-43eb-83e5-3b7e7ff34f04.jpg"
       },
       {
         "id": "HFsA012",
@@ -751,7 +828,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://i.ytimg.com/vi/We2ZGCTtJq8/mqdefault.jpg"
       },
       {
         "id": "HFsA013",
@@ -759,7 +836,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": ["1 TX, 1 RX, 8 antena", "2 magic arm", "Pin NPF970 x4", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x3"],
-        "image": "/black.jpg"
+        "image": "https://nguyentristore.com/thumbs/1600x1600x2/upload/product/img1868-9850.jpg"
       },
       {
         "id": "HFsA014",
@@ -767,7 +844,7 @@
         "price": "400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["1 TX, 1 RX, 12 antena", "2 magic arm", "Pin NPF970 x4", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x3"],
-        "image": "/black.jpg"
+        "image": "https://www.cameraandlightmag.com/wp-content/uploads/2024/09/accsoon.png"
       },
       {
         "id": "HFsA015",
@@ -775,7 +852,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["1 TX", "1 magic arm", "Pin NPF970 x2", "Sạc pin NDF970 x1", "Cáp HDMI-HDMI x2"],
-        "image": "/black.jpg"
+        "image": "https://www.cinemachine.com.au/cdn/shop/articles/Accsoon_CineView_Nano.jpg?v=1695277639"
       },
       {
         "id": "HFsA016",
@@ -783,7 +860,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://cdn.vjshop.vn/tin-tuc/nhung-cau-hoi-thuong-gap-ve-dji-rs-2/dji-r2-12.jpg"
       },
       {
         "id": "HFsA017",
@@ -791,7 +868,7 @@
         "price": "250.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://mayanh24h.com/upload/assets/2022/0617/ar/dji-ronin-rs3-1.jpg"
       },
       {
         "id": "HFsA018",
@@ -799,7 +876,7 @@
         "price": "300.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://tokyocamera.vn/wp-content/uploads/2024/04/DJI-RS-4-Pro-Tokyo-Camera-1.jpg"
       },
       {
         "id": "HFsA019",
@@ -807,7 +884,7 @@
         "price": "200.000 VNĐ",
         "duration": "1 ngày",
         "features": ["DJI RavenEye Image Transmitter Kit", "The RS Focus Motor Kit"],
-        "image": "/black.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWewS4F59FWKZaJrmNoIeE9U-6QRU-SVx4SQ&s"
       },
       {
         "id": "HFsA020",
@@ -815,7 +892,7 @@
         "price": "150.000 VNĐ",
         "duration": "1 ngày",
         "features": ["2 Cáp HDMI - HDMI", "1 magic arm / 1 monitor cold shoe mount", "2 pin F970 và sạc"],
-        "image": "/black.jpg"
+        "image": "https://tokyocamera.vn/wp-content/uploads/2024/06/portkeys-pt6-6.jpg"
       },
       {
         "id": "HFsA021",
@@ -828,7 +905,7 @@
           "1 cáp D Tap - DC",
           "1 SSD 500GB và Sata Redear"
         ],
-        "image": "/black.jpg"
+        "image": "https://www.bhphotovideo.com/images/fb/atomos_ninja_v_5_4k_1475735.jpg"
       },
       {
         "id": "HFsA022",
@@ -843,7 +920,7 @@
           "1 sạc pin V cổng Dtap",
           "1 SSD 500GB và SATA reader kit"
         ],
-        "image": "/black.jpg"
+        "image": "https://www.sonyalpha.vn/uploads/Images/file_Fn8MSYbo7vfatcKja2C51CED3CM9sglJ.jpg"
       },
       {
         "id": "HFsA023",
@@ -851,7 +928,7 @@
         "price": "100.000 VNĐ",
         "duration": "1 ngày",
         "features": [],
-        "image": "/black.jpg"
+        "image": "https://www.cinegearpro.co.uk/cdn/shop/products/Matte-Box-Support-Kit.jpg?v=1593571875&width=1445"
       },
       {
         "id": "HFsA024",
@@ -859,7 +936,7 @@
         "price": "200.000 - 400.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Đầu dầu chén 100mm", "Chân baby (+100.000đ)"],
-        "image": "/black.jpg"
+        "image": "https://fuvision.vn/uploads/source/san-pham/jieyang/v12n/v12-carbon-(4).jpg"
       },
       {
         "id": "HFsA025",
@@ -867,7 +944,7 @@
         "price": "100.000 VNĐ",
         "duration": "1 ngày",
         "features": ["Chân Benro/ Jieyang"],
-        "image": "/black.jpg"
+        "image": "https://fuvision.vn/uploads/source/san-pham/jieyang/kh25p/1-0006-1461079138000-1247336.jpg"
       }
     ]
   }
