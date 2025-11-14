@@ -15,224 +15,103 @@ export default function CinematicIntro({ onComplete }) {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({
         onComplete: () => {
-          setTimeout(onComplete, 300);
+          setTimeout(onComplete, 200);
         },
       });
 
-      // Initial setup
+      // Initial setup - logo không xoay, chỉ fade
       gsap.set(introRef.current, { visibility: 'visible' });
-      gsap.set(logoRef.current, { scale: 0, opacity: 0, rotation: -45, y: 100 });
-      gsap.set(textRef.current, { y: 80, opacity: 0, scale: 0.8 });
-      gsap.set(overlayRef.current, { scaleX: 0 });
+      gsap.set(logoRef.current, { scale: 0.8, opacity: 0 });
+      gsap.set(textRef.current, { y: 20, opacity: 0 });
       gsap.set(flashRef.current, { opacity: 0 });
 
-      // Cinema intro sequence với tone đỏ đen
+      // Intro ngắn gọn
       tl
-        // Camera flash effect mở đầu
+        // Flash nhanh
         .to(flashRef.current, {
-          opacity: 1,
-          duration: 0.1,
+          opacity: 0.8,
+          duration: 0.08,
           ease: 'power2.out',
         })
         .to(
           flashRef.current,
           {
             opacity: 0,
-            duration: 0.3,
+            duration: 0.2,
+            ease: 'power2.out',
+          },
+          0.08
+        )
+
+        // Background
+        .to(
+          introRef.current,
+          {
+            background: 'linear-gradient(135deg, #1a0000 0%, #330000 25%, #000000 50%, #1a0000 75%, #000000 100%)',
+            duration: 0.6,
             ease: 'power2.out',
           },
           0.1
         )
 
-        // Background transition to dark red gradient
-        .to(
-          introRef.current,
-          {
-            background: 'linear-gradient(135deg, #1a0000 0%, #330000 25%, #000000 50%, #1a0000 75%, #000000 100%)',
-            duration: 1,
-            ease: 'power2.out',
-          },
-          0.2
-        )
-
-        // Logo dramatic entrance với red glow
-        .to(
-          logoRef.current,
-          {
-            scale: 1.3,
-            opacity: 1,
-            rotation: 0,
-            y: 0,
-            duration: 2,
-            ease: 'back.out(1.5)',
-            transformOrigin: 'center',
-          },
-          0.8
-        )
-
-        // Logo settle với subtle pulse
+        // Logo fade in đơn giản - không xoay
         .to(
           logoRef.current,
           {
             scale: 1,
+            opacity: 1,
             duration: 0.8,
-            ease: 'power3.out',
+            ease: 'power2.out',
           },
-          2.8
+          0.3
         )
 
-        // Logo red glow effect - nhẹ hơn
+        // Logo glow nhẹ
         .to(
           logoRef.current,
           {
             filter: 'drop-shadow(0 0 20px rgba(220, 38, 38, 0.6))',
-            duration: 0.8,
+            duration: 0.5,
             ease: 'power2.out',
           },
-          4
+          0.8
         )
 
-        // Text reveal với dramatic entrance
+        // Text hiện lên
         .to(
           textRef.current,
           {
             y: 0,
             opacity: 1,
-            scale: 1,
-            duration: 1.2,
-            ease: 'power3.out',
-          },
-          4.2
-        )
-
-        // Logo breathing nhẹ
-        .to(
-          logoRef.current,
-          {
-            scale: 1.05,
-            duration: 1.2,
-            repeat: 1,
-            yoyo: true,
-            ease: 'power2.inOut',
-          },
-          4.5
-        )
-
-        // Red overlay sweep
-        .to(
-          overlayRef.current,
-          {
-            scaleX: 1,
-            duration: 1.2,
-            ease: 'power3.inOut',
-          },
-          5.5
-        )
-
-        // ========== DRAMATIC ENDING SEQUENCE ==========
-
-        // Camera flash finale
-        .to(
-          flashRef.current,
-          {
-            opacity: 0.8,
-            duration: 0.15,
+            duration: 0.6,
             ease: 'power2.out',
           },
-          6.2
-        )
-        .to(
-          flashRef.current,
-          {
-            opacity: 0,
-            duration: 0.4,
-            ease: 'power2.out',
-          },
-          6.35
+          1
         )
 
-        // Logo dramatic exit
-        .to(
-          logoRef.current,
-          {
-            scale: 0.2,
-            opacity: 0.6,
-            rotation: 45,
-            y: -80,
-            filter: 'drop-shadow(0 0 20px rgba(220, 38, 38, 0.8)) blur(2px)',
-            duration: 1.8,
-            ease: 'power4.in',
-          },
-          6.5
-        )
+        // Hold một chút
+        .to({}, { duration: 0.8 }, 1.6)
 
-        // Text cinematic exit
+        // Fade out nhanh
         .to(
-          textRef.current,
-          {
-            y: 100,
-            opacity: 0,
-            scale: 0.7,
-            duration: 1.2,
-            ease: 'power3.in',
-          },
-          6.8
-        )
-
-        // Particles fade out
-        .to(
-          particlesRef.current,
+          [logoRef.current, textRef.current],
           {
             opacity: 0,
-            duration: 1,
+            duration: 0.5,
             ease: 'power2.in',
           },
-          7
+          2.4
         )
 
-        // Cinematic bars dramatic close
-        .to(
-          '.cinematic-bar-top',
-          {
-            height: '50vh',
-            duration: 1.5,
-            ease: 'power4.inOut',
-          },
-          7.2
-        )
-        .to(
-          '.cinematic-bar-bottom',
-          {
-            height: '50vh',
-            duration: 1.5,
-            ease: 'power4.inOut',
-          },
-          7.2
-        )
-
-        // Final logo disappear
-        .to(
-          logoRef.current,
-          {
-            scale: 0,
-            opacity: 0,
-            rotation: -90,
-            filter: 'blur(15px)',
-            duration: 1,
-            ease: 'power4.in',
-          },
-          7.5
-        )
-
-        // Circle wipe transition
+        // Fade background
         .to(
           introRef.current,
           {
-            clipPath: 'circle(0% at 50% 50%)',
-            duration: 1.8,
-            ease: 'power4.inOut',
+            opacity: 0,
+            duration: 0.4,
+            ease: 'power2.in',
           },
-          8
+          2.7
         );
     }, introRef);
 
